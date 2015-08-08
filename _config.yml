@@ -1,0 +1,16 @@
+# Site settings
+title: Dudmy Jung
+email: dudmy@dudmy.net
+description: "더드미의 개인 페이지 : 개발자의 꿈을 꾸는 학생"
+
+baseurl: # the subpath of your site, e.g. /blog/
+url: "http://dudmy.github.io" # the base hostname & protocol for your site
+
+github_username: dudmy
+
+# Build settings
+markdown: redcarpet
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
+
+redcarpet:
+  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]
