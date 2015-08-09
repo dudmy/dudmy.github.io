@@ -5,7 +5,7 @@ layout: default
 ![me](img/me.png)  
 　  
 　  
-## Portfolio
+## Profile
 
 * 정유진, Jung Yujin
 * Novice Developer/Programmer
