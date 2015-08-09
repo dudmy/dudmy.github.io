@@ -47,19 +47,17 @@ layout: default
 ## Footsteps
 
 * **2015**  
-* [HSU 멀티미디어공학과 졸업 프로젝트](/2015/06/04/hsu-graduation-project.html)
+* HSU 멀티미디어공학과 졸업 프로젝트 [<i class="fa fa-external-link"></i>](/2015/06/04/hsu-graduation-project.html)
     - *카페를 편리하게 누릴 수 있는 애플리케이션과 웹 페이지*
-* [HSU 소프트웨어공학 텀 프로젝트](/2015/06/19/hsu-software-engineering.html)
+* HSU 소프트웨어공학 텀 프로젝트 [<i class="fa fa-external-link"></i>](/2015/06/19/hsu-software-engineering.html)
     - *편의점에 특화된 유통기한 공동 관리 애플리케이션*
-* [HSU 웹 프로그래밍 개인 프로젝트](/2015/06/18/hsu-web-programming.html)
+* HSU 웹 프로그래밍 개인 프로젝트 [<i class="fa fa-external-link"></i>](/2015/06/18/hsu-web-programming.html)
     - *간단한 소통을 할 수 있는 커뮤니티형 웹 페이지*
 * **2014**
 * HSU 서버 프로그래밍 팀 프로젝트
     - *최신 음악과 아티스트에 대한 정보를 얻을 수 있는 음악 웹 페이지*
 * 사단법인 한국디지털콘텐츠학회 추계학술대회 논문
     - *Real-time Online Canvas*
-* HSU 고급 프로그래밍 개인 프로젝트
-    - *기존 코드를 업데이트하여 기능을 추가한 다자간 채팅 프로그램*
 * 제 10회 한성대학교 교내 공학경진대회 & 하계 학술 소모임
     - *집단지성을 이용한 한성대 주변 음식점 어플리케이션*
 * 미래창조과학부 후원 창의도전형 SW R&D 지원 사업
