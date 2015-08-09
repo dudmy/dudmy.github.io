@@ -24,12 +24,14 @@ layout: default
 * [<i class="fa fa-instagram"></i>　instagram.com/dudmy](https://instagram.com/dudmy)  
 　  
 
-## Footsteps
+## Experience
 
-* ![dcnm](img/2.png) DC&M Academic Club (2013.06~2015.08)
-    - 한성대학교 학술 동아리 겸 LAB실인 DC&M(Digital Contents & Multimedia)에서 활동을 했습니다. 랩원들과 프로젝트를 진행하고 공모전에 참여하고 논문을 작성하는 등 다양한 경험을 했습니다. 작지만 처음으로 겪어보는 사회생활로 사람들과 함께 하는 법을 배웠습니다.  
-* ![hansung univ.](img/1.png) In Hansung University (2012.03~)
-    - 한성대학교에서 멀티미디어공학을 전공했습니다. 컴퓨터언어를 시작으로 자료구조, 알고리즘, 객체지향언어, 멀티미디어 통신, 데이터베이스, JAVA프로그래밍, 서버프로그래밍, 운영체제, 모바일 컴퓨팅, 웹 프로그래밍, 소프트웨어공학, 졸업프로젝트 등의 강의를 들었습니다.
+* ![dcnm](img/2.png) DC&M Academic Club (2013.06 ~ 2015.08)
+    - *한성대학교 학술 동아리 겸 LAB실 DC&M(Digital Contents & Multimedia) 활동*
+    - *랩원들과 프로젝트 진행 · 공모전 참여 · 논문 작성*
+* ![hansung univ.](img/1.png) In Hansung University (2012.03 ~ )
+    - *공과대학 멀티미디어공학 전공*
+    - *자료구조, 알고리즘, 객체지향언어, 데이터베이스, JAVA프로그래밍, 서버프로그래밍, 운영체제, 모바일 컴퓨팅, 소프트웨어공학, 졸업프로젝트 등 수강* 
 　  
 
 ## Likes
