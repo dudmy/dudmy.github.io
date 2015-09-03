@@ -27,7 +27,7 @@ layout: default
 ## Experience
 
 * ![neighbor system](img/3.png) NEIGHBOR SYSTEM (2015.09 ~ )
-    - *네이버시스템㈜ 인턴 활동*
+    - *네이버시스템㈜ 모바일사업부 응용SW개발팀 인턴 활동*
     - *will be added soon...*
 * ![dcnm](img/2.png) DC&M Academic Club (2013.06 ~ 2015.08)
     - *한성대학교 학술 동아리 겸 LAB실 DC&M(Digital Contents & Multimedia) 활동*
