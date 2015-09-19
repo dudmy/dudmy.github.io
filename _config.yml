@@ -1,7 +1,7 @@
 # Site settings
 title: Dudmy Jung
 email: dudmy@dudmy.net
-description: "더드미의 개인 페이지 : 개발자의 꿈을 꾸는 학생"
+description: "더드미의 프로필 : 개발자의 꿈을 더듬다"
 
 baseurl: # the subpath of your site, e.g. /blog/
 url: "http://dudmy.github.io" # the base hostname & protocol for your site
