@@ -16,7 +16,7 @@ layout: default
 * Want to deal well with all about development  
  　  
  　
-* [Blog - Dudmy blog : 개발자의 꿈을 더듬는 무한도전.](http://blog.dudmy.net)  
+* [Blog - Dudmy blog : Security Blanket.](http://blog.dudmy.net)  
  　
 * [<i class="fa fa-github"></i>　github.com/dudmy](https://github.com/dudmy)
 * [<i class="fa fa-linkedin"></i>　linkedin.com/in/dudmy](https://www.linkedin.com/in/dudmy)
@@ -56,6 +56,7 @@ layout: default
     - *편의점에 특화된 유통기한 공동 관리 애플리케이션*
 * [HSU 웹 프로그래밍 개인 프로젝트](/2015/06/18/hsu-web-programming.html)
     - *간단한 소통을 할 수 있는 커뮤니티형 웹 페이지*
+* LibOutcomes 프로젝트
 * **2014**
 * HSU 서버 프로그래밍 팀 프로젝트
     - *최신 음악과 아티스트에 대한 정보를 얻을 수 있는 웹 페이지*
