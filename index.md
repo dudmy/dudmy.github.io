@@ -20,6 +20,7 @@ layout: default
  　
 * [<i class="fa fa-github"></i>　github.com/dudmy](https://github.com/dudmy)
 * [<i class="fa fa-linkedin"></i>　linkedin.com/in/dudmy](https://www.linkedin.com/in/dudmy)
+* [<i class="fa fa-slideshare"></i> slideshare.net/dudmy](http://www.slideshare.net/dudmy)
 * [<i class="fa fa-facebook-square"></i>　facebook.com/dudmy](https://www.facebook.com/dudmy)
 * [<i class="fa fa-instagram"></i>　instagram.com/dudmy](https://instagram.com/dudmy)  
 　  
@@ -28,10 +29,10 @@ layout: default
 
 * ![neighbor system](img/3.png) NEIGHBOR SYSTEM (2015.09 ~ )
     - *네이버시스템㈜ 모바일사업부 응용SW개발팀 인턴 활동*
-    - *세미나 발표 · 웹 개발 프로젝트 참여*
+    - *세미나 발표 · 웹 개발 프로젝트 · 프로젝트 테스트 참여*
 * ![dcnm](img/2.png) DC&M Academic Club (2013.06 ~ 2015.08)
     - *한성대학교 학술 동아리 겸 LAB실 DC&M(Digital Contents & Multimedia) 활동*
-    - *랩원들과 프로젝트 진행 · 공모전 참여 · 논문 작성*
+    - *랩원들과 개발 · 영상관련 프로젝트 진행 · 공모전 참여 · 논문 작성*
 * ![hansung univ.](img/1.png) Hansung University (2012.03 ~ )
     - *공과대학 멀티미디어공학 전공*
     - *자료구조, 알고리즘, 객체지향언어, 데이터베이스, JAVA프로그래밍, 서버프로그래밍, 운영체제, 모바일 컴퓨팅, 소프트웨어공학, 졸업프로젝트 등 수강*  
@@ -44,7 +45,9 @@ layout: default
 * Web Development
     - HTML/CSS, JavaScript
 * Server Side Programming
-    - Node.js, JSP  
+    - Node.js, JSP
+* etc.
+    - Python  
 　  
 
 ## Footsteps
