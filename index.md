@@ -20,7 +20,7 @@ layout: default
  　
 * [<i class="fa fa-github"></i>　github.com/dudmy](https://github.com/dudmy)
 * [<i class="fa fa-linkedin"></i>　linkedin.com/in/dudmy](https://www.linkedin.com/in/dudmy)
-* [<i class="fa fa-slideshare"></i> slideshare.net/dudmy](http://www.slideshare.net/dudmy)
+* [<i class="fa fa-slideshare"></i>　slideshare.net/dudmy](http://www.slideshare.net/dudmy)
 * [<i class="fa fa-facebook-square"></i>　facebook.com/dudmy](https://www.facebook.com/dudmy)
 * [<i class="fa fa-instagram"></i>　instagram.com/dudmy](https://instagram.com/dudmy)  
 　  
@@ -70,7 +70,7 @@ layout: default
     - *집단지성을 이용한 한성대 주변 음식점 어플리케이션*
 * 미래창조과학부 후원 창의도전형 SW R&D 지원 사업
     - *멀티미디어와 가상칠판의 실시간 일체형 N 스크린 시스템*
-* HSU JAVA 프로그래밍 팀 프로젝트
+* [HSU JAVA 프로그래밍 팀 프로젝트](/2014/06/09/hsu-java-programming.html)
     - *벽돌 깨기의 단순한 규칙을 벗어나 다양한 아이템을 추가한 게임*
 * **2013**
 * 한국멀티미디어학회 추계학술발표대회 논문
