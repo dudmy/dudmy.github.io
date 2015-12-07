@@ -46,7 +46,7 @@ layout: default
     - HTML/CSS, JavaScript
 * Server Side Programming
     - Node.js, JSP
-* etc.
+* etc.  
 　  
 
 ## Footsteps
@@ -66,9 +66,9 @@ layout: default
 * 사단법인 한국디지털콘텐츠학회 추계학술대회 논문
     - *실시간 온라인 그림판 (Real-time Online Canvas)*
 * [제 10회 한성대학교 교내 공학경진대회 & 하계 학술 소모임](/2014/10/01/hsu-engr-competitive-exhibition.html)
-    - *집단지성을 이용한 한성대 주변 음식점 어플리케이션*
+    - *집단지성을 이용한 한성대 주변 음식점 애플리케이션*
 * 미래창조과학부 후원 창의도전형 SW R&D 지원 사업
-    - *멀티미디어와 가상칠판의 실시간 일체형 N 스크린 시스템*
+    - *멀티미디어와 가상칠판의 실시간 일체형 N 스크린 시스템 솔루션*
 * [HSU JAVA 프로그래밍 팀 프로젝트](/2014/06/09/hsu-java-programming.html)
     - *벽돌 깨기의 단순한 규칙을 벗어나 다양한 아이템을 추가한 게임*
 * **2013**
