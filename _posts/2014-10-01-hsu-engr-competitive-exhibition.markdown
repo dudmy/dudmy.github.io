@@ -5,7 +5,7 @@ date:       2014-10-01
 categories:
 ---
 
-![main img](../../../img/project/hsu-engr.png)  
+![main img](../../../img/project/hsu_engr.png)  
 　  
 
 **프로젝트명**
@@ -43,14 +43,14 @@ categories:
 **개발 내용**
 
 *요구사항 분석(유스케이스 다이어그램)*  
-![engr01](../../../img/project/hsu-engr01.png)  
+![engr01](../../../img/project/hsu_engr01.png)  
 　  
 *테스트케이스 설계*  
-![engr02](../../../img/project/hsu-engr02.png)  
+![engr02](../../../img/project/hsu_engr02.png)  
 　  
 *아키텍쳐 설계*  
-![engr03](../../../img/project/hsu-engr03.png)  
+![engr03](../../../img/project/hsu_engr03.png)  
 　  
 *구현 이미지*  
-![engr04](../../../img/project/hsu-engr04.png)  
+![engr04](../../../img/project/hsu_engr04.png)  
     

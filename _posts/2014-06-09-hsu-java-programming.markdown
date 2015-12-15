@@ -5,7 +5,7 @@ date:       2014-06-09
 categories:
 ---
 
-![main img](../../../img/project/hsu-java.png)  
+![main img](../../../img/project/hsu_java.png)  
 　 
 
 **프로젝트명**
@@ -42,18 +42,18 @@ Main 화면에서 level 및 sound(on/off)를 설정합니다. start 버튼을 �
 **개발 내용**
 
 *화면 흐름*  
-![화면 흐름](../../../img/project/hsu-java01.PNG)  
+![화면 흐름](../../../img/project/hsu_java01.PNG)  
 　  
 *화면 구성*  
-![화면 구성](../../../img/project/hsu-java02.PNG)  
+![화면 구성](../../../img/project/hsu_java02.PNG)  
 　  
 *클래스 다이어그램*  
-![클래스 다이어그램](../../../img/project/hsu-java03.png)  
+![클래스 다이어그램](../../../img/project/hsu_java03.png)  
 　  
 *프로그램 구조*  
-![프로그램 구조1](../../../img/project/hsu-java04.png)  
+![프로그램 구조1](../../../img/project/hsu_java04.png)  
 
-![프로그램 구조2](../../../img/project/hsu-java05.PNG)  
+![프로그램 구조2](../../../img/project/hsu_java05.PNG)  
 
 
 [프로젝트 시연 영상 - YouTube](https://youtu.be/6NcEi5kv8SY)  

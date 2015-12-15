@@ -5,7 +5,7 @@ date:       2015-06-19
 categories:
 ---
 
-![main img](../../../img/project/hsu-software.png)  
+![main img](../../../img/project/hsu_software.png)  
 　 
 
 **프로젝트명**
