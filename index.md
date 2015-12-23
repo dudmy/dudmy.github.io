@@ -52,25 +52,33 @@ layout: default
 ## Footsteps
 
 * **2015**  
-* [HSU 멀티미디어공학과 졸업 프로젝트](/2015/06/04/hsu-graduation-project.html)
+* NEIGHBOR SYSTEM 웹 페이지 개발 참여
+    - *추후 내용 추가*
+* HSU 멀티미디어공학과 졸업 프로젝트
     - *카페를 편리하게 누릴 수 있는 애플리케이션과 웹 페이지*
-* [HSU 소프트웨어공학 텀 프로젝트](/2015/06/19/hsu-software-engineering.html)
+    - [Read more...](/2015/06/04/hsu-graduation-project.html)
+* HSU 소프트웨어공학 텀 프로젝트
     - *편의점에 특화된 유통기한 공동 관리 애플리케이션*
-* [HSU 웹 프로그래밍 개인 프로젝트](/2015/06/18/hsu-web-programming.html)
+    - [Read more...](/2015/06/19/hsu-software-engineering.html)
+* HSU 웹 프로그래밍 개인 프로젝트
     - *간단한 소통을 할 수 있는 커뮤니티형 웹 페이지*
+    - [Read more...](/2015/06/18/hsu-web-programming.html)
 * LibOutcomes 프로젝트
     - *공공도서관 서비스 가치평가 모델 개발 및 소프트웨어 구축*
 * **2014**  
-* [HSU 서버 프로그래밍 팀 프로젝트](/2014/12/06/hsu-server-programming.html)
+* HSU 서버 프로그래밍 팀 프로젝트
     - *최신 음악과 아티스트에 대한 정보를 얻을 수 있는 웹 페이지*
+    - [Read more...](/2014/12/06/hsu-server-programming.html)
 * 사단법인 한국디지털콘텐츠학회 추계학술대회 논문
     - *실시간 온라인 그림판 (Real-time Online Canvas)*
-* [제 10회 한성대학교 교내 공학경진대회 & 하계 학술 소모임](/2014/10/01/hsu-engr-competitive-exhibition.html)
+* 제 10회 한성대학교 교내 공학경진대회 & 하계 학술 소모임
     - *집단지성을 이용한 한성대 주변 음식점 애플리케이션*
+    - [Read more...](/2014/10/01/hsu-engr-competitive-exhibition.html)
 * 미래창조과학부 후원 창의도전형 SW R&D 지원 사업
     - *멀티미디어와 가상칠판의 실시간 일체형 N 스크린 시스템 솔루션*
-* [HSU JAVA 프로그래밍 팀 프로젝트](/2014/06/09/hsu-java-programming.html)
+* HSU JAVA 프로그래밍 팀 프로젝트
     - *벽돌 깨기의 단순한 규칙을 벗어나 다양한 아이템을 추가한 게임*
+    - [Read more...](/2014/06/09/hsu-java-programming.html)
 * **2013**
 * 한국멀티미디어학회 추계학술발표대회 논문
     - *스토리보드 애플리케이션 (StroyBoard Application)*
