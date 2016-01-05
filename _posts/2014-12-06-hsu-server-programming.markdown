@@ -43,30 +43,4 @@ Melon을 재구성한 음악관련 웹 페이지
 
 **개발 내용**
 
-*흐름 분석 - 전체 구조도*  
-![server01](../../../img/project/hsu_server01.png)  
-　  
-*설계 및 구현 - DB*  
-![server02](../../../img/project/hsu_server02.png)  
-　  
-*설계 및 구현 - JSP (회원가입 흐름도)*  
-![server03](../../../img/project/hsu_server03.png)  
-　  
-*설계 및 구현 - JSP (기본 구성 흐름도)*  
-![server04](../../../img/project/hsu_server04.png)  
-　  
-*설계 및 구현 - JSP (검색 흐름도)*  
-![server05](../../../img/project/hsu_server05.png)  
-　  
-*설계 및 구현 - JSP (상품구매 흐름도)*  
-![server06](../../../img/project/hsu_server06.png)  
-　  
-*설계 및 구현 - JSP (질문 흐름도)*  
-![server07](../../../img/project/hsu_server07.png)  
-　  
-*설계 및 구현 - JSP (플레이어 흐름도)*  
-![server08](../../../img/project/hsu_server08.png)  
-　  
-*설계 및 구현 - JAVA*  
-![server09](../../../img/project/hsu_server09.png)  
-　  
+추후 내용 추가...

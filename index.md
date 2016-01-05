@@ -43,7 +43,7 @@ layout: default
 * Mobile Application Development
     - Android, Java
 * Web Development
-    - HTML/CSS, JavaScript
+    - HTML/CSS, JavaScript, jQuery
 * Server Side Programming
     - Node.js, JSP
 * etc.  
