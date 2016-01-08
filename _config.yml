@@ -1,16 +1,30 @@
-# Site settings
-title: Dudmy Jung
+highlighter: pygments
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://dudmy.github.io
+author: dudmy
+
+# edit this section with your information
+# biomadeira.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl:
+title: Dudmy's Resume
+name: Jung Yujin
 email: dudmy@dudmy.net
-description: "더드미의 프로필 : 개발자의 꿈을 더듬다"
+email_full: mailto:dudmy@dudmy.net
+website: blog.dudmy.net
+website_full: http://blog.dudmy.net/
+github: dudmy
+linkedin: dudmy
+slideshare: dudmy
+facebook: dudmy
+google_analytics: UA-65643570-2
 
-baseurl: # the subpath of your site, e.g. /blog/
-url: "http://dudmy.github.io" # the base hostname & protocol for your site
-
-github_username: dudmy
-
-# Build settings
-markdown: redcarpet
-markdown_ext:  markdown,mkdown,mkdn,mkd,md
-
-redcarpet:
-  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]
+# needed for travis-ci build
+exclude: [vendor]
