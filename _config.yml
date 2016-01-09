@@ -18,12 +18,11 @@ title: Dudmy's Resume
 name: Jung Yujin
 email: dudmy@dudmy.net
 email_full: mailto:dudmy@dudmy.net
-website: blog.dudmy.net
+website: Blog
 website_full: http://blog.dudmy.net/
 github: dudmy
 linkedin: dudmy
 slideshare: dudmy
-facebook: dudmy
 google_analytics: UA-65643570-2
 
 # needed for travis-ci build
