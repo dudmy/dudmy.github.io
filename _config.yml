@@ -1,26 +1,30 @@
-# general configuration
-url: http://dudmy.net
-baseurl: ''
-
-# compass configuration
-compass:
-  # an avatar or logo (optional)
-  logo: "/assets/images/profile.png"
-  # author will appear under the avatar (optional)
-  author: "Dudmy"
-  # tagline will appear under the title (optional)
-  tagline: "Want to deal well with all about development."
-  # if include_content is true, the contents of the content.html include will be
-  # added right above the generated item list, if present
-  include_content: true
-  # if include_analytics is true, the content of the analytics.html include will
-  # be added at the end of the <head> section. You can add your Google Analytics
-  # Tracking Code to that file.
-  include_analytics: true
-
-# Dependencies
-markdown: kramdown
 highlighter: rouge
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://dudmy.github.io
+author: dudmy
 
-# Permalinks
-permalink: pretty
+# edit this section with your information
+# biomadeira.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl:
+title: Dudmy's Resume
+name: Dudmy
+email: dudmy@dudmy.net
+email_full: mailto:dudmy@dudmy.net
+website: Blog
+website_full: http://blog.dudmy.net/
+github: dudmy
+linkedin: dudmy
+slideshare: dudmy
+facebook: dudmy
+google_analytics: UA-65643570-2
+
+# needed for travis-ci build
+exclude: [vendor]
