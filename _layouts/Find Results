@@ -1,0 +1,12 @@
+Searching 236 files for "share.html"
+
+/Users/yujin/GitHub/dudmy.github.io/_layouts/post.html:
+   28      <div class="block-right">
+   32        <a href="../posts.html" title="posts" class="posts-menu-icon"></a>
+   ..
+   38          {{ content }}
+   39          <br>
+   41          {% include page-pagination.html %}
+   42        </div>
+
+2 matches in 1 file
