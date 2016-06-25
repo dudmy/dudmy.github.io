@@ -3,9 +3,7 @@ layout: post
 title: "Parse.com 서비스 종료"
 categories:
   - Etc
-tags:
-  - parse
-  - baas
+comments: true
 ---
 
 1월 29일 한 통의 메일이 날라왔다. Facebook이 인수한 클라우드 기반의 백엔드 인프라를 제공하는 서비스인 Parse에서 온 메일이었다. 새로운 서비스 소개나 광고인줄 알고 넘겼는데, 나중에 읽어보니 생각지도 못한 내용이었다...

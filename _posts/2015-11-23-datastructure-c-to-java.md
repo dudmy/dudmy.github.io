@@ -2,11 +2,8 @@
 layout: post
 title: "C로 된 자료구조 Java로 바꾸기"
 categories:
-  - Datastructure/Algorithm
-tags:
-  - datastructure
-  - java
-  - study
+  - Algorithm
+comments: true
 ---
 
 2학년 자료구조 강의에서  'C 언어로 쉽게 풀어쓴 자료구조'라는 책으로 수업이 진행됬었다. 당시에 다룰 수 있는 프로그래밍 언어가 1학년 때 배운 C언어가 전부였기 때문에 해당 책으로 배운 듯 하다.

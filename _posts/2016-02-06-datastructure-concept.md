@@ -2,11 +2,8 @@
 layout: post
 title: "자료구조 개념 정리"
 categories:
-  - Datastructure/Algorithm
-tags:
-  - datastructure
-  - java
-  - study
+  - Algorithm
+comments: true
 ---
 
 데이터: 처리의 대상이 되는 모든 것  

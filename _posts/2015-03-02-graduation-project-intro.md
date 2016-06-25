@@ -3,12 +3,10 @@ layout: post
 title: "졸업 프로젝트 소개서"
 categories:
   - Project
-tags:
-  - project
-  - graduation
+comments: true
 ---
 
-## T.noorim (카페를 누리다)  
+**T.noorim (카페를 누리다)**  
 
 지도 교수: 권정혁 교수님  
 

@@ -3,10 +3,7 @@ layout: post
 title: "자바스크립트의 함수 (function)"
 categories:
   - JavaScript
-tags:
-  - javascript
-  - jquery
-  - study
+comments: true
 ---
 
 바스크립트에서 함수를 설명할 때 first-class object(또는 citizen, value)라고 한다. 함수는 객체를 의미하고 변수, 배열, 객체에 저장될 수 있다는 뜻이다.

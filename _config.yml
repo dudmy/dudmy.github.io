@@ -1,65 +1,58 @@
-# Site
-title: Dudmy
-description: Funny, Developer, Programming
-url: http://dudmy.github.io
-logo: halve.png                                       # Site logo
-locale: en_US
+# Site settings
+title: Dudmy's blog
+tagline: Funny, Happy, Programming
+email: dudmy@dudmy.net
+description: Want to deal well with development. So I'll do my best, more than ever before.
+baseurl: # the subpath of your site, e.g. /blog/
+url: "http://dudmy.github.io" # the base hostname & protocol for your site
+logourl: /assets/images/logo.png # Site logo
+author: "Dudmy"
+author_thumbnail: "/assets/images/avatar.png" # Author avatar
 
-# Left Block Images
-background:
-  homepage: images/home.png                           # this image will be shown on homepage's left block
-  post-list: images/unsplash-image-10.jpg             # this image will be shown on post list page
-  default-post: images/unsplash-gallery-image-3.jpg   # this image will be shown when post's front matter doesn't specify any image
+# Theme customization - please change from the defaults!
+theme:
+  # Color for sidebar bar, links, etc
+  highlight_color: "#205081" #205081" # "#272935"
+  # Social media links, leave blank to ignore
+  social: 
+    github: dudmy
+    facebook: dudmy
 
-# Jekyll
-permalink:          /:title/
-markdown:           kramdown
-highlighter:        rouge
-kramdown:
-  auto_ids:         true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   false
+  # Enable share buttons on post footer
+  show_share_buttons: false
+
+  # Show author picure, name and social links on post footer
+  show_author_info: false
+
+  # Disqus comments manager - shortname
+  disqus_shortname: "dudmy"
+
+  # Google Analytics/Webmaster key, leave blank to ignore
+  google_analytics_key: 
+  google_webmaster_key: 
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+
+# Permalinks
+permalink: pretty
+
+# Pagination config
+gems: [jekyll-paginate]
+paginate: 5
+
+# Files/Folders to be excluded from generated _site folder
+exclude: 
+  - CNAME
+  - Gemfile
+  - Rakefile
+  - README.md
+  - .gitignore
+  - .sass-cache
+  - Gemfile.lock
+
+# Sass conversion configs
 sass:
-  sass_dir:         assets/_sass
-  style:            compressed
-
-# Google Analytics
-#google-analytics: UA-XXXXX-Y
-
-# Social Links
-email:             dudmy@dudmy.net
-#google.plus:        username
-#twitter:            username
-facebook:           dudmy
-github:             dudmy
-#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-linkedin:          dudmy
-#xing:              username
-#instagram:          username
-#lastfm:            username
-#tumblr:            username
-#pinterest:         username
-#foursquare:        username
-#steam:              username
-#dribbble:          username
-#youtube:           username
-#soundcloud:        username
-#weibo:             username
-#flickr:            username
-#codepen:           username
-#keybase:           username
-#xmpp:              username@server.com
-#hackernews:        username
-#behance:           username
-
-# Gems
-gems:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-gist
-
-# Exclude list
-include: [_pages]
-exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, CNAME, LICENSE, Rakefile, .sass-cache, .DS_Store]
+  sass_dir: assets/css/_sass
+  style: :compressed

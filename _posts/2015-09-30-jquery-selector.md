@@ -3,10 +3,7 @@ layout: post
 title: "제이쿼리 선택자 정리"
 categories:
   - JavaScript
-tags:
-  - jquery
-  - study
-  - programming
+comments: true
 ---
 
 jQuery에서 태그와 같은 특정 객체를 선택하기 위해서 Selector(선택자)를 이용한다. 선택자의 종류가 다양하지만 경험이 적어 우선 사용해 본 선택자에 대해서만 정리해본다. 추후 하나씩 공부하면서 추가해나간다.

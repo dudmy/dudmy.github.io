@@ -3,8 +3,7 @@ layout: post
 title: "처음으로 오픈소스에 기여하다"
 categories:
   - Etc
-tags:
-  - opensource
+comments: true
 ---
 
 [초보 개발자가 오픈소스에 기여하는 5단계](http://www.bloter.net/archives/197960) 에서는 오픈소스 SW를 개발하는 개발자에게 도움을 주는 모든 행위가 오픈소스에 기여하는 일이라고 한다. 오류 제보부터 문서화 작업에 참여하는 일까지 포함된다고 한다.
@@ -16,8 +15,10 @@ tags:
 <script src="//code.jquery.com/jquery-1.9.1.min.js"></script>
 ...
 ```
+　  
 
-**"libries"...**
+**"libries"...**  
+　
 
 처음에는 이게 올바른 단어인가 고민했다. 평소에는 잘 보이지도 않던 오자가 갑자기 눈에 띄니 제가 잘 못 알고있나 했다. 사전 및 다른 문서들을 찾아본 결과 오자라고 확신한 후, 아주 작은 일이지만 알리기로 마음 먹었다.
 

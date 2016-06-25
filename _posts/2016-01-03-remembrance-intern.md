@@ -3,9 +3,7 @@ layout: post
 title: "4개월간의 인턴생활을 마치며"
 categories:
   - Chatter
-tags:
-  - chatter
-  - intern
+comments: true
 ---
 
 짧다면 짧고 길다면 긴 4개월간의 인턴생활이 2015년 12월 31일부로 끝났다.

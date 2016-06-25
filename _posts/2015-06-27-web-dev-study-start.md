@@ -2,10 +2,8 @@
 layout: post
 title: "웹 개발 공부 시작"
 categories:
-  - Web dev tutorial
-tags:
-  - web
-  - study
+  - Web
+comments: true
 ---
 
 권정혁 교수님께서 말씀해주신 [대학생을 위한 웹 개발 공부용 체크리스트](https://github.com/xguru/WebDevTutorial)를 진행한다. 본 카테고리에는 체크리스트를 진행하며 그에 대한 기록을 남긴다.
@@ -19,7 +17,7 @@ tags:
 > 
 > 코드카데미(Codecademy)는 프로그래밍을 학습할 수 있는 온라인 플랫폼이다. 자바스크립트, PHP, 파이썬, 루비 등 프로그래밍 언어와 HTML, CSS 등의 마크업 언어 과정이 있다. - 위키백과
 
-**현재까지 수강한 목록([My Skills](https://www.codecademy.com/dudmy))**
+**현재까지 수강한 목록 ([My Skills](https://www.codecademy.com/dudmy))**
 
 * HTML & CSS
 * JavaScript

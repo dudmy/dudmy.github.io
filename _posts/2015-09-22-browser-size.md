@@ -3,10 +3,7 @@ layout: post
 title: "브라우저의 창 크기 구하기"
 categories:
   - JavaScript
-tags:
-  - javascript
-  - study
-  - programming
+comments: true
 ---
 
 현재 브라우저의 창 크기를 JavaScript의 Browser 객체를 이용해 구할 수 있다.

@@ -3,10 +3,7 @@ layout: post
 title: "자바스크립트 정렬 함수, sort()"
 categories:
   - JavaScript
-tags:
-  - javascript
-  - study
-  - programming
+comments: true
 ---
 
 자바스크립트 배열의 내장 함수에 sort()가 있다. 명칭 그대로 배열 안의 원소를 정렬하는 함수이다. 추후에 또 검색할 것 같아서 적어놓는다.

@@ -3,26 +3,25 @@ layout: post
 title: "오픈소스 위지윅 에디터, Summernote"
 categories:
   - Etc
-tags:
-  - opensource
-  - wysiwyg editor
+comments: true
 ---
 
-학교에서 웹 개발 관련 프로젝트에 참여하고 있다. 게시판을 제작하던 중에 글 작성에 사용할 위지윅 에디터(WYSIWYG Editor)가 필요했다. 웹 개발 경험이 적어 단어 조차 처음 들어보았지만... 이번 기회에 에디터를 사용해본다.
+학교에서 웹 개발 관련 프로젝트에 참여하고 있다. 게시판을 제작하던 중에 글 작성에 사용할 위지윅 에디터(WYSIWYG Editor)가 필요했다. 웹 개발 경험이 적어 단어 조차 처음 들어보았지만... 이번 기회에 에디터를 사용해본다.  
+　
 
 > 위지윅 에디터란?  
 > WYSIWYG(What You See Is What You Get) Editor란 코드를 작성하는 대신 간편하게 실제 페이지 레이아웃과 유사한 형식으로 웹페이지를 작성할 수 있는 HTML 편집기의 한 종류를 말한다. - Google AdSense
 
 사용할 위지윅 에디터는 국내에서 시작된 오픈소스 프로젝트로 한국 개발자들이 만든 에디터다. Super simple WYSIWYG Editor using Bootstrap 라는 설명만큼 간단한 설정만으로 사용할 수 있다.
 
-![wes-1]({{ site.url }}/images/post/20150731/wes-1.png)  
+![wes-1]({{ site.url }}/assets/images/post/20150731/wes-1.png)  
 　 
 
-## WYSIWYG Editor 적용하기
+### WYSIWYG Editor 적용하기
 
-* [summernote.org](http://summernote.org/#/) 에서 Download source code 클릭하여 다운
+1.　[summernote.org](http://summernote.org/#/) 에서 Download source code 클릭하여 다운
 
-* 자신의 프로젝트에 다운받은 CSS 파일과 JS 파일 넣기
+2.　자신의 프로젝트에 다운받은 CSS 파일과 JS 파일 넣기
 
 ```
 CSS 파일: dist > summernote.css
@@ -30,7 +29,7 @@ JavaScript 파일: dist > summernote.min.js
 메뉴를 한국어로 변환: lang > summernote-ko-KR.js
 ```
 
-* HTML 파일에 필요한 라이브러리와 다운받은 파일들 추가
+3.　HTML 파일에 필요한 라이브러리와 다운받은 파일들 추가
 
 내 경우 CSS 파일은 <head> 태그 안에 추가하고, JS 파일은 웹 페이지의 빠른 로딩을 위해 <body> 태그 끝에 추가하였다.
 
@@ -50,13 +49,13 @@ JavaScript 파일: dist > summernote.min.js
 <script src="file-path/summernote.min.js"></script>
 ```
 
-* 게시판의 글 작성에서 내용 부분의 textarea 변경
+4.　게시판의 글 작성에서 내용 부분의 textarea 변경
 
 ```html
 <textarea class="summernote" name="contents"></textarea>
 ```
 
-* 마지막으로 높이와 언어 등의 옵션을 설정한 Initialize 코드 추가
+5.　마지막으로 높이와 언어 등의 옵션을 설정한 Initialize 코드 추가
 
 ```html
 <script>

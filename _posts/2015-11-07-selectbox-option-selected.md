@@ -3,10 +3,7 @@ layout: post
 title: "select box의 option 찾기"
 categories:
   - JavaScript
-tags:
-  - jquery
-  - study
-  - programming
+comments: true
 ---
 
 selected 된 option을 찾는 것이 아니라, 특정한 값을 이용해 해당 option을 찾아서 선택한다. 사용할 때마다 잊어먹어서 정리해 놓는다.

@@ -3,11 +3,7 @@ layout: post
 title: "자바스크립트 정규식을 사용한 문자 치환"
 categories:
   - JavaScript
-tags:
-  - javascript
-  - study
-  - programming
-  - regular expression
+comments: true
 ---
 
 문자열로 되어있는 시간의 차이를 구해야 하는 일이 있었다. 나는 replace 함수를 이용해 문자를 치환하여 값을 비교하는 방법으로 진행했다.

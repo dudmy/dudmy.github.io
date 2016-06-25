@@ -3,10 +3,7 @@ layout: post
 title: "안드로이드 로딩 화면 구현하기"
 categories:
   - Android
-tags:
-  - android
-  - programming
-  - loading
+comments: true
 ---
 
 애플리케이션을 실행했을 때 로딩 화면 (인트로)이 나타나도록 구현한다. 예를 들면 카카오톡처럼 로고를 보여주는 것이다. 로딩 화면을 구현하는 방법은 두 가지로 나눌 수 있는데, 로딩 화면을 메인으로 설정하는 방법과 메인 화면에서 로딩 화면을 호출하는 방법이다.
@@ -16,9 +13,9 @@ tags:
 방법의 차이일 뿐, 두 방법 모두 같은 결과물을 보여준다.  
 　
 
-## 로딩 화면을 메인으로 설정
+### 로딩 화면을 메인으로 설정
 
-* activity_loading.xml  
+* **activity_loading.xml**
 
 로딩 화면의 레이아웃을 간단하게 구성한다. xml을 만든 후 화면 중앙에 '로딩' 글자가 보이도록 TextView를 추가하였다.
 
@@ -40,7 +37,7 @@ tags:
 ```
 
 
-* LoadingActivity.java  
+* **LoadingActivity.java**
 
 activity_loading을 로딩 화면의 View로 설정한다. startLoading() 메소드는 로딩 화면이 나타난 후 2초뒤에 MainActivitiy를 실행하도록 한다.
 
@@ -70,7 +67,7 @@ public class LoadingActivity extends Activity {
 }
 ```
 
-* AndroidManifest.xml  
+* **AndroidManifest.xml**
 
 애플리케이션의 시작점을 LoadingActivity로 변경한다. 그리고 아래에 MainActivity를 추가한다.
 
@@ -90,9 +87,9 @@ public class LoadingActivity extends Activity {
   
 　
 
-## 메인 화면에서 로딩 화면 호출
+### 메인 화면에서 로딩 화면 호출
 
-* LoadingActivity.java  
+* **LoadingActivity.java**
 
 위와 다르게 MainActivity를 실행하지 않고 2초 뒤 종료된다.
 
@@ -120,7 +117,7 @@ public class LoadingActivity extends Activity {
 }
 ```
 
-* MainActivity.java  
+* **MainActivity.java**
 
 onCreate() 부분에 LoadingActivity를 실행하는 코드를 추가한다.
 
@@ -135,7 +132,7 @@ protected void onCreate(Bundle savedInstanceState) {
 }
 ```
 
-* AndroidManifest.xml  
+* **AndroidManifest.xml**
 
 처음 만들어진 상태 그대로 MainActivity가 시작점이다. 아래에 LoadingActivity에 대한 부분만 추가한다.
 
