@@ -13,7 +13,7 @@ comments: true
 
 우선 도메인 등록 업체를 조사해봤다. 저 같은 경우 AWS를 이용하기 때문에 호스팅 서비스가 따로 필요 없어 가격이 가장 저렴한 곳을 우선순위로 두었다. 당시 .com 과 .net 도메인 가격할인 이벤트를 진행하던 [호스팅케이알(HK)](http://www.hosting.kr/main) 을 선택했다.
 
-![dr-1]({{ site.url }}/assets/images/post/20150723/dr-1.png)
+![dr-1]({{ site.url }}/public/post/20150723/dr-1.png)
 
 전세계 도메인 중 1위인 .com 으로 등록하고 싶었지만 누군가 사용중이어서 .net 도메인으로 등록... ;(  
 　 
@@ -42,7 +42,7 @@ ex) 도메인명이 abc.com, IP 주소가 12.34.56.789 일 경우 아래와 같�
 서브도메인: www / 레코드 타입: 별칭(CNAME) / IP 주소: abc.com / 우선순위: 10
 ```
 
-![dr-2]({{ site.url }}/assets/images/post/20150723/dr-2.png)
+![dr-2]({{ site.url }}/public/post/20150723/dr-2.png)
 
 3.　적용하기 클릭하면 네임서버 설정 변경 신청 접수 완료
 
@@ -53,7 +53,7 @@ ex) 도메인명이 abc.com, IP 주소가 12.34.56.789 일 경우 아래와 같�
 
 도메인을 이메일 주소로도 이용할 수 있다. 네이버의 [WORKS MOBILE](https://www.worksmobile.com/kr/) 에서 이러한 서비스를 무료로 제공한다.
 
-![dr-3]({{ site.url }}/assets/images/post/20150723/dr-3.png)
+![dr-3]({{ site.url }}/public/post/20150723/dr-3.png)
 
 1.　우선 WORKS MOBILE에서 보유 도메인으로 이용하기로 가입
 
@@ -61,4 +61,4 @@ ex) 도메인명이 abc.com, IP 주소가 12.34.56.789 일 경우 아래와 같�
 
 3.　메일 선택에서 NAVER 체크 후 신청하기
 
-![dr-4]({{ site.url }}/assets/images/post/20150723/dr-4.png)
+![dr-4]({{ site.url }}/public/post/20150723/dr-4.png)

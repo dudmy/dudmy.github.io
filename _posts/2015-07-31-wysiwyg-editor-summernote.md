@@ -14,7 +14,7 @@ comments: true
 
 사용할 위지윅 에디터는 국내에서 시작된 오픈소스 프로젝트로 한국 개발자들이 만든 에디터다. Super simple WYSIWYG Editor using Bootstrap 라는 설명만큼 간단한 설정만으로 사용할 수 있다.
 
-![wes-1]({{ site.url }}/assets/images/post/20150731/wes-1.png)  
+![wes-1]({{ site.url }}/public/post/20150731/wes-1.png)  
 　 
 
 ### WYSIWYG Editor 적용하기

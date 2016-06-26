@@ -13,7 +13,8 @@ comments: true
 ### 기본적인 제한된 물결 효과
 
 ```xml
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -21,12 +22,13 @@ comments: true
 </LinearLayout>
 ```
 
-![lire-1]({{ site.url }}/assets/images/post/20160214/lire-1.png)
+![lire-1]({{ site.url }}/public/post/20160214/lire-1.png)
 
 ### 뷰를 넘어 확장되는 물결 효과
 
 ```xml
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -34,4 +36,4 @@ comments: true
 </LinearLayout>
 ```
 
-![lire-2]({{ site.url }}/assets/images/post/20160214/lire-2.png)
+![lire-2]({{ site.url }}/public/post/20160214/lire-2.png)

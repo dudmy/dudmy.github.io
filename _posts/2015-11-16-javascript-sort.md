@@ -9,7 +9,7 @@ comments: true
 자바스크립트 배열의 내장 함수에 sort()가 있다. 명칭 그대로 배열 안의 원소를 정렬하는 함수이다. 추후에 또 검색할 것 같아서 적어놓는다.
 
 ### arrayobj.sort(sortFunction)  
-
+　  
 arrayobj는 임의의 Array 개체이다. sortFunction는 요소 순서를 결정하는 데 사용되는 함수의 이름이다. 생략하면 오름차순, ASCII 문자 순서로 정렬된다.
 
 sortFunction 인수에 함수를 지정하면 아래의 값 중 하나가 반환된다.

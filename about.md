@@ -1,10 +1,9 @@
 ---
 layout: page
 title: About me
-permalink: /about/
-banner_image: about-banner-image.jpeg
-banner_image_alt: About me
 ---
+
+![about]({{ site.url }}/../public/about.jpeg)
 
 끊임없이 스스로에게 현재의 모습이 즐거운지 되묻고  
 내가 원하는 길, 내가 하고 싶은 일, 행복하게 살아갈 모습을 찾고 있습니다.

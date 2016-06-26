@@ -1,58 +1,25 @@
-# Site settings
-title: Dudmy's blog
-tagline: Funny, Happy, Programming
-email: dudmy@dudmy.net
-description: Want to deal well with development. So I'll do my best, more than ever before.
-baseurl: # the subpath of your site, e.g. /blog/
-url: "http://dudmy.github.io" # the base hostname & protocol for your site
-logourl: /assets/images/logo.png # Site logo
-author: "Dudmy"
-author_thumbnail: "/assets/images/avatar.png" # Author avatar
-
-# Theme customization - please change from the defaults!
-theme:
-  # Color for sidebar bar, links, etc
-  highlight_color: "#205081" #205081" # "#272935"
-  # Social media links, leave blank to ignore
-  social: 
-    github: dudmy
-    facebook: dudmy
-
-  # Enable share buttons on post footer
-  show_share_buttons: false
-
-  # Show author picure, name and social links on post footer
-  show_author_info: false
-
-  # Disqus comments manager - shortname
-  disqus_shortname: "dudmy"
-
-  # Google Analytics/Webmaster key, leave blank to ignore
-  google_analytics_key: 
-  google_webmaster_key: 
-
-# Build settings
-markdown: kramdown
-highlighter: pygments
-
 # Permalinks
-permalink: pretty
+permalink:          pretty
 
-# Pagination config
-gems: [jekyll-paginate]
-paginate: 5
+# Setup
+title:              Dudmy's blog
+tagline:            'Funny n Happy'
+description:        'Want to deal well with development. So always do my best, more than ever before.'
+url:                http://dudmy.github.io
+baseurl:            ''
 
-# Files/Folders to be excluded from generated _site folder
-exclude: 
-  - CNAME
-  - Gemfile
-  - Rakefile
-  - README.md
-  - .gitignore
-  - .sass-cache
-  - Gemfile.lock
+# About/contact
+author:
+  name:             Dudmy
+  email:            dudmy@dudmy.net
 
-# Sass conversion configs
-sass:
-  sass_dir: assets/css/_sass
-  style: :compressed
+# Social link
+github:             https://github.com/dudmy
+
+# Gems
+gems:               [jekyll-paginate]
+paginate:           5
+paginate_path:      "page:num"
+
+# Custom vars
+version:             1.0.0

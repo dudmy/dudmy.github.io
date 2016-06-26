@@ -112,7 +112,7 @@ comments: true
 
 **전체적인 일정표**
 
-![gm]({{ site.url }}/assets/images/post/20150324/gm.jpg)
+![gm]({{ site.url }}/public/post/20150324/gm.jpg)
 
 ---
 　

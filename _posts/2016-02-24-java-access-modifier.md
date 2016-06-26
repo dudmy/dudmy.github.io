@@ -12,7 +12,9 @@ comments: true
 > 
 > 객체의 속성(data fields)과 행위(methods)를 하나로 묶고, 구현 내용 일부를 외부에 감추는 개념이다. 객체의 외부에서 내부 정보를 직접 접근하거나 조작할 수 없도록 정보 은닉(Information Hiding) 한다. 이는 정보 보호의 목적에서 만들어진 개념이다. - 위키피디아 - 
 
-즉, 접근지정자는 OOP(Object-Oriented Programming)의 특징인 캡슐화를 위하여 사용된다. 외부에 감추는 방법으로 언어적 측면에서 접근지정자를 두어 감추는 정도를 기술하여 구현하는 것이다. 자바에는 4개의 접근지정자(private, default, protected, public)가 있다.
+즉, 접근지정자는 OOP(Object-Oriented Programming)의 특징인 캡슐화를 위하여 사용된다. 외부에 감추는 방법으로 언어적 측면에서 접근지정자를 두어 감추는 정도를 기술하여 구현하는 것이다.  
+
+자바에는 4개의 접근지정자(private, default, protected, public)가 있다.
 
 ### public
 

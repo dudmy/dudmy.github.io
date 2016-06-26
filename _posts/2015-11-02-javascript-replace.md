@@ -19,7 +19,6 @@ time.replace(':', ''); // 0625:11
 ```
 
 자바스크립트에서 replace 함수는 맨 처음 문자 하나만 치환한다. 모든 문자를 치환하는 자바의 replaceAll 같은 함수가 없다. 대신 정규식 표현을 이용하면 같은 효과를 얻을 수 있다.  
-　
 
 ### 정규식 사용
 
@@ -31,7 +30,6 @@ time.replace(/:/gi, ''); // 062511
 * i: 대/소문자 구분을 무시 (Case-insensitive search)
 
 정규식(Regular Expression)은 문자열에서 문자 조합에 일치 시키기 위하여 사용되는 형식 언어이다. 주로 검색, 치환, 추출을 위한 패턴을 표현하는 데 사용된다. 자세한 설명과 특수문자는 [MDN - JavaScript 정규식](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/%EC%A0%95%EA%B7%9C%EC%8B%9D) 에서 확인할 수 있다.  
-　
 
 ### 마스킹 처리
 
