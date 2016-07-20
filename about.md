@@ -39,3 +39,10 @@ title: About me
 * 노래 크게 틀어놓고 일하기
 * 모든 것들의 예능 접수하기
 * 집 지키기 (언제나 어디서나)
+
+**Social**
+
+* [GitHub](https://github.com/dudmy)
+* [LinkedIn](https://www.linkedin.com/in/dudmy)
+* [SlideShare](http://www.slideshare.net/dudmy)
+* [Facebook](https://www.facebook.com/dudmy)
