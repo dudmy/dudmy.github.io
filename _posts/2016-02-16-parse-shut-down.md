@@ -2,7 +2,7 @@
 layout: post
 title: "Parse.com 서비스 종료"
 categories:
-  - Etc
+  - Chatter
 comments: true
 ---
 
