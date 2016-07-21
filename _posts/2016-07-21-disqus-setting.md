@@ -7,8 +7,8 @@ comments: true
 ---
 
 GitHub Pages는 Jekyll에 의해 구동되는 정적 웹 페이지(Static Web Page)이다. 그래서 일반 블로그와 같은 동적 웹 페이지(Dynamic Web Page)의 서비스들이 없다. 하지만 흔히 소셜 댓글 서비스라고 불리는 Disqus를 이용하면 정적 웹 페이지에서도 comment를 달 수 있다.  
-　  
 
+　  
 ## Disqus 설정하기
 
 1.　[Disqus](https://disqus.com/) 가입하기 & Verify email 인증하기
