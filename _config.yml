@@ -17,9 +17,12 @@ author:
 github:             https://github.com/dudmy
 
 # Gems
-gems:               [jekyll-paginate, jekyll-sitemap]
+gems:               [jekyll-paginate, jekyll-sitemap, jekyll-seo-tag]
 paginate:           5
 paginate_path:      "page:num"
 
 # Custom vars
 version:             1.0.0
+
+# Etc
+google_analytics:   UA-65643570-2
