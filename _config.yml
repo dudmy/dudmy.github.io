@@ -25,4 +25,4 @@ paginate_path:      "page:num"
 version:             1.0.0
 
 # Etc
-google_analytics:   UA-65643570-2
+google-analytics:   UA-65643570-2
