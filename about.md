@@ -8,8 +8,6 @@ title: About me
 끊임없이 스스로에게 현재의 모습이 만족스러운지 되묻고  
 내가 원하는 길, 내가 하고 싶은 일, 즐겁게 살아갈 모습을 찾아가고 있습니다.
 
-또한 Coder가 아닌 Programmer가 되기 위하여 정체되지 않게 발버둥 치고 있습니다.
-
 이곳에는 제가 경험한 내용들을 기록하고 공유합니다.
 　  
 　  
@@ -17,7 +15,7 @@ title: About me
 **Dudmy (더드미)**
 
 * Junior software engineer
-* Android Developer
+* Android developer
 
 **Experience**
 
