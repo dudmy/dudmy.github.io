@@ -78,4 +78,20 @@ dependencies {
     // ...
 }
 ```
+　
+
+## DataBinding error(s) ing... 
+
+아직 이 문제에 대한 정확한 해결책은 아니지만, DataBinding 대신 [Kotlin Android Extensions](https://kotlinlang.org/docs/tutorials/android-plugin.html) 를 사용하는 것으로 문제를 피해가자!  
+
+Extensions를 이용하면 별도의 뷰 인스턴스 선언 없이 id에 바로 접근하여 사용할 수 있다. 뷰의 id를 참조하게 되면 자동으로 import kotlinx.android.synthetic.{sourceSet}.{layout}.* 가 추가된다.  
+
+이전에 추가했던 kapt 'com.android.databinding:compiler:2.3.1' 코드는 필요가 없어지니 삭제한다. 그리고 아래의 플러그인을 추가하면 사용할 수 있다.  
+
+[app/build.gradle]  
+
+```
+apply plugin: 'kotlin-android-extensions'
+```
+
 
