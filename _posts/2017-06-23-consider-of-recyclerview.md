@@ -264,6 +264,8 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> implem
 }
 ```
 
+　  
+
 ## ViewHolder는 왜 static 이어야 할까?
 
 ViewHolder를 사용할 때 non-static 으로 사용해도 문제없이 동작한다. 하지만 Android Developers 예제를 확인하면 static 클래스로 정의한다. 이는 안드로이드 개념보다 자바 개념을 알고 있어야 한다.
