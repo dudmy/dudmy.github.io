@@ -8,6 +8,8 @@ comments: true
 
 대부분 애플리케이션에는 아이템 목록을 보여주는 페이지가 존재하며, 이를 위해 RecyclerView를 사용한다. 이에 대한 기본적인 개념은 알고 있다고 생각했지만, 면접을 보다 보니 놓치고 있는 부분도 많았다. 그래서 알고 있는 내용에 대해 한 번 정리를 해보려고 한다.
 
+　  
+
 ## ListView
 
 Android 4.4(Kitkat) 까지는 아이템 목록을 보여주기 위해 [ListView](https://developer.android.com/reference/android/widget/ListView.html?hl=ko) 위젯이 사용되었다. 그리고 더 좋은 성능(ex. smooth scroll)을 위해 사용 방법이 변해왔다.
@@ -211,12 +213,14 @@ RecyclerView will not call onBindViewHolder again when the position of the item 
 
 ### OnCreateViewHolder()에 리스너를!
 
+[Recycler.ViewHolder](https://developer.android.com/reference/android/support/v7/widget/RecyclerView.ViewHolder.html) reference를 살펴보면 getAdapterPosition() 이라는 메소드가 있다. 그리고 이는 ViewHolder가 나타내는 항목의 어댑터 위치를 리턴한다. 이를 이용하면 원하는 position의 아이템을 찾아서 처리할 수 있겠다!
+
 ```java
 @Override
 public MyAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
     View itemView = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.list_item, parent, false);
-    ViewHolder holder =  new ViewHolder(itemView);
+    ViewHolder holder = new ViewHolder(itemView);
     holder.itemView.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
@@ -292,4 +296,10 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
 }
 ```
 
-접근 지정자의 개념은 파악하고 있으며 private로 정의되면 선언된 클래스 내부에서만 접근이 가능하다는 것도 알고 있다. 근데 이 부분에 대해 질문을 받았을 때, 클래스 선언 부분이 클래스 내부인가 아니면 클래스 외부인지 혼동이 왔다. 기초를 조금 더 학습하고 나서 정리해야겠다...
+접근 지정자의 개념은 파악하고 있으며 private로 정의되면 선언된 클래스 내부에서만 접근이 가능하다는 것도 알고 있다. 근데 이 부분에 대해 질문을 받았을 때, 클래스 선언부가 클래스 내부인가 아닌가에 대해 혼동이 왔다.
+
+며칠동안 생각해보고 낸 결론은 클래스 선언부는 private이 접근 불가능한 영역이라는 것이다. onCreateViewHolder()는 MyAdapter 클래스 내부이기 때문에 접근이 가능했던 것이고 extends RecyclerView.Adapter< MyAdapter.ViewHolder > 는 MyAdater 클래스 선언부이기 때문에 불가능하다고 생각된다.
+
+　  
+
+ps. 혹시 잘못된 내용이 있을 경우 알려주시면 감사하겠습니다.
