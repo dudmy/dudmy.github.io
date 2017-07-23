@@ -49,7 +49,10 @@ dependencies {
 
 여기까지 완료하고 빌드를 하면 위의 메시지와 함께 실패한다.  
 이는 Dagger2의 자바 어노테이션 프로세싱을 지원하지 않아 생긴 문제로, 해결하기 위해서는 Kotlin Annotation Processing Tool 관련 코드를 추가해야 한다.  
-참고: [kapt: Annotation Processing for Kotlin](https://blog.jetbrains.com/kotlin/2015/05/kapt-annotation-proㅋㅂcessing-for-kotlin/)  
+
+참고 링크
+* [kapt: Annotation Processing for Kotlin](https://blog.jetbrains.com/kotlin/2015/05/kapt-annotation-processing-for-kotlin/)
+* [Android Frameworks Using Annotation Processing](http://kotlinlang.org/docs/tutorials/android-frameworks.html)
 
 [app/build.gradle]  
 
