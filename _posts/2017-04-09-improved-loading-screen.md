@@ -30,7 +30,7 @@ Cold start란 기기 부팅 후 앱이 처음 실행되거나 시스템에서 �
 
 개선된 구현의 핵심은 splash activity(로딩 화면)에 대한 layout 파일을 사용하지 않고 background theme를 이용하는 것이다.  
 
-샘플 코드: [https://github.com/dudmy/Splash](https://github.com/dudmy/Splash)  
+샘플 코드: [https://github.com/dudmy/blog-sample](https://github.com/dudmy/blog-sample/tree/master/20170409-improved-loading-screen)  
 
 * **splash_background.xml**  
 
