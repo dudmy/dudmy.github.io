@@ -32,6 +32,19 @@ comments: true
     - 카페 지점에서는 주문내역을 실시간으로 확인하고, 음료 제조가 완료되면 사용자에게 제조완료 알림을 송신할 수 있습니다.
 
 
+### 컴포넌트 설계
+
+![gfs-4]({{ site.url }}/public/post/20150306/gfs-4.png)
+
+
 ### 앱의 대략적인 틀 구성
 
 ![gfs-3]({{ site.url }}/public/post/20150306/gfs-3.jpg)
+
+
+> 목차
+> 1. [졸업 프로젝트 소개서](http://dudmy.net/project/2015/03/02/graduation-project-intro/)
+> 2. [졸업 프로젝트 기능 명세서 (본글입니다)](http://dudmy.net/project/2015/03/06/graduation-functional-specification/)
+> 3. [중간 발표 보고서](http://dudmy.net/project/2015/03/20/graduation-project-midterm-ppt/)
+> 4. [졸업 프로젝트 회의록](http://dudmy.net/project/2015/03/24/graduation-meeting/)
+> 5. [졸업 프로젝트 판넬](http://dudmy.net/project/2015/05/30/graduation-project-panel/)
