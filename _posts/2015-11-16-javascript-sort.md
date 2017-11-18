@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "자바스크립트 정렬 함수, sort()"
-categories:
-  - JavaScript
+excerpt:
+categories: [javaScript]
 comments: true
 ---
 

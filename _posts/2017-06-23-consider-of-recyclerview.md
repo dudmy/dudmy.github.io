@@ -1,14 +1,10 @@
 ---
 layout: post
 title: "RecyclerView에 대한 고찰"
-categories:
-  - Android
+excerpt: "대부분의 애플리케이션에서 아이템 목록을 보여주기 위해 RecyclerView를 사용한다. 이에 대한 기본적인 개념은 알고 있다고 생각했지만, 면접을 보다 보니 놓치고 있는 부분도 많았다. 그래서 알고 있는 내용에 대해 한 번 정리를 해보려고 한다."
+categories: [android]
 comments: true
 ---
-
-대부분 애플리케이션에는 아이템 목록을 보여주는 페이지가 존재하며, 이를 위해 RecyclerView를 사용한다. 이에 대한 기본적인 개념은 알고 있다고 생각했지만, 면접을 보다 보니 놓치고 있는 부분도 많았다. 그래서 알고 있는 내용에 대해 한 번 정리를 해보려고 한다.
-
-　  
 
 ## ListView
 
@@ -85,7 +81,6 @@ public class MyAdapter extends BaseAdapter {
 
 이러한 문제를 해결하기 위해 View의 정보를 들고 있을 ViewHolder라는 클래스를 만들어서 사용한다. convertView가 null이면 View를 inflate 한 후에 findViewById()로 얻은 View를 ViewHolder에 세팅하고 이를 convertView의 Tag에 저장한다. 그러면 재활용 뷰가 존재하는 경우에는 불필요한 findViewById() 과정 없이 아이템을 보여줄 수 있게 된다.
 
-　  
 
 ## RecyclerView
 
@@ -182,7 +177,6 @@ GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 3);
 recyclerView.setLayoutManager(gridLayoutManager);
 ```
 
-　  
 
 ## OnClickListener
 
@@ -268,7 +262,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> implem
 }
 ```
 
-　  
 
 ## ViewHolder는 왜 static 이어야 할까?
 
@@ -300,6 +293,5 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
 
 며칠동안 생각해보고 낸 결론은 클래스 선언부는 private이 접근 불가능한 영역이라는 것이다. onCreateViewHolder()는 MyAdapter 클래스 내부이기 때문에 접근이 가능했던 것이고 extends RecyclerView.Adapter< MyAdapter.ViewHolder > 는 MyAdater 클래스 선언부이기 때문에 불가능하다고 생각된다.
 
-　  
 
 ps. 혹시 잘못된 내용이 있을 경우 알려주시면 감사하겠습니다.

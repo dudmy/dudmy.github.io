@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "졸업 프로젝트 기능 명세서"
-categories:
-  - Project
+excerpt: "T.noorim (카페를 누리다) 프로젝트에 대한 기능 명세서이다."
+categories: [etc]
 comments: true
 ---
 
 ### 애플리케이션 (사용자용)
 
-![gfs-1]({{ site.url }}/public/post/20150306/gfs-1.png)
+![gfs-1]({{ site.url }}/img/post/20150306/gfs-1.png)
 
 * 로딩 화면을 지나 메인 화면에는 카페 리스트가 있습니다. 또한 메인 화면에서 설정 버튼을 누르면 주문내역과 이벤트/쿠폰, 사용자가 설정한 옵션 내용을 확인할수 있는 탭이 나옵니다.  
     - 주문내역 화면에서는 그 동안 구매한 내역을 날짜 혹은 카페 별로 확인할 수 있습니다.
@@ -23,7 +23,7 @@ comments: true
 
 ### 웹 페이지 (관리자용)
 
-![gfs-2]({{ site.url }}/public/post/20150306/gfs-2.png)
+![gfs-2]({{ site.url }}/img/post/20150306/gfs-2.png)
 
 * 모든 카페는 지점과 카페명만으로 웹 페이지에 가입할 수 있습니다.  
 * 웹 페이지에 로그인하면 메인 화면이 나타납니다. 메인 화면에서는 카페 본사와 지점에 따라각기 다른 일을 할 수 있습니다.  
@@ -34,17 +34,9 @@ comments: true
 
 ### 컴포넌트 설계
 
-![gfs-4]({{ site.url }}/public/post/20150306/gfs-4.png)
+![gfs-4]({{ site.url }}/img/post/20150306/gfs-4.png)
 
 
 ### 앱의 대략적인 틀 구성
 
-![gfs-3]({{ site.url }}/public/post/20150306/gfs-3.jpg)
-
-
-> 목차
-> 1. [졸업 프로젝트 소개서](http://dudmy.net/project/2015/03/02/graduation-project-intro/)
-> 2. [졸업 프로젝트 기능 명세서 (본글입니다)](http://dudmy.net/project/2015/03/06/graduation-functional-specification/)
-> 3. [중간 발표 보고서](http://dudmy.net/project/2015/03/20/graduation-project-midterm-ppt/)
-> 4. [졸업 프로젝트 회의록](http://dudmy.net/project/2015/03/24/graduation-meeting/)
-> 5. [졸업 프로젝트 판넬](http://dudmy.net/project/2015/05/30/graduation-project-panel/)
+![gfs-3]({{ site.url }}/img/post/20150306/gfs-3.jpg)

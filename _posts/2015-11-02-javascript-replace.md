@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "자바스크립트 정규식을 사용한 문자 치환"
-categories:
-  - JavaScript
+excerpt:
+categories: [javaScript]
 comments: true
 ---
 

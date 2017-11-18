@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "안드로이드 UI 테스트에서 Idle 상태 기다리기"
-categories:
-  - Android
+excerpt:
+categories: [android]
 comments: true
 ---
 

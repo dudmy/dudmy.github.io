@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "안드로이드 Custom View 만들기 - 1"
-categories:
-  - Android
+excerpt:
+categories: [android]
 comments: true
 ---
 
@@ -31,9 +31,9 @@ public class SquareImageView extends AppCompatImageView {
 ```
 
 복잡한 custom view는 제대로 구현해 본 적이 없기 때문에 [Android Training](https://developer.android.com/training/custom-views/index.html)을 통해 학습해보려고 한다. 본 글은 발 번역 및 잘못된 생각이 포함될 수 있으니 참고하기만 바란다.  
+
 P.S. [GitHub Repo Issues](https://github.com/dudmy/Android-Training)
 
-　  
 
 ## Summary
 
@@ -49,7 +49,6 @@ P.S. [GitHub Repo Issues](https://github.com/dudmy/Android-Training)
 * Optimizing the View
   - UI가 얼마나 아름답든지 간에, 일관되게 높은 프레임 속도로 실행되지 않으면 사용자는 좋아하지 않을 것이다. 일반적인 성능 문제를 피하는 방법과 하드웨어 가속을 사용하여 custom 드로잉을 빠르게 실행하는 방법에 대해 알아본다.
 
-　  
 
 # Creating a Custom View Class
 
@@ -76,9 +75,9 @@ class PieChart extends View {
 }
 ```
 
-> *ViewGroup?*  
-> *바로 위의 예제에서 PieChart는 [View][view]를 상속받고 있다. 하지만 샘플 코드에서 PieChart는 [ViewGroup](https://developer.android.com/reference/android/view/ViewGroup.html)을 상속받고 있다. 그렇다면 이 두 클래스의 차이는 무엇일까?*  
-> *안드로이드 레퍼런스에 따르면 ViewGroup은 다른 뷰(자식뷰라고 불리는)를 포함할 수 있는 특수한 뷰로서 레이아웃 및 뷰 컨테이너의 기본 클래스이다. 즉, 뷰를 그룹으로 엮어서 관리하기 위하여 사용된다. 샘플 코드에서 PieChart는 실제로 표시되어야 하는 Pie 뷰와 Point 뷰를 포함하기 때문에 이를 상속받은 것으로 보인다.*
+> **ViewGroup?**  
+> 바로 위의 예제에서 PieChart는 [View][view]를 상속받고 있다. 하지만 샘플 코드에서 PieChart는 [ViewGroup](https://developer.android.com/reference/android/view/ViewGroup.html)을 상속받고 있다. 그렇다면 이 두 클래스의 차이는 무엇일까?  
+> 안드로이드 레퍼런스에 따르면 ViewGroup은 다른 뷰(자식뷰라고 불리는)를 포함할 수 있는 특수한 뷰로서 레이아웃 및 뷰 컨테이너의 기본 클래스이다. 즉, 뷰를 그룹으로 엮어서 관리하기 위하여 사용된다. 샘플 코드에서 PieChart는 실제로 표시되어야 하는 Pie 뷰와 Point 뷰를 포함하기 때문에 이를 상속받은 것으로 보인다.
 
 ## Define Custom Attributes
 
@@ -107,8 +106,8 @@ Custom 속성을 정의하려면 < declare-styleable > 리소스를 프로젝트
 
 이 코드는 PieChart라는 styleable entity에 속한 두 개의 custom 속성인, showText와 labelPosition을 선언한다. Styleable entity의 이름은 일반적으로 custom view를 정의하는 클래스 이름과 같다.
 
-> *Got to Know!*  
-> *LinearLayout 속성의 구성이나 구조에 대해 알게 되었다. XML attributes 중에서 clickable은 boolean 포맷이고 visibility는 enum 포맷이며 constant(value)로 visible(0), invisible(1), gone(2)을 가진다는 것을 이해했다.*
+> **Got to Know!**  
+> LinearLayout 속성의 구성이나 구조에 대해 알게 되었다. XML attributes 중에서 clickable은 boolean 포맷이고 visibility는 enum 포맷이며 constant(value)로 visible(0), invisible(1), gone(2)을 가진다는 것을 이해했다.
 
 Custom 속성을 정의한 후에는 기본 제공되는 속성처럼 레이아웃 XML 파일에서 사용할 수 있다. 유일한 차이점은 custom 속성이 다른 namespace에 속한다는 것이다. 즉, 예제에서는 'http://schemas.android.com/apk/res/android' 대신에 'http://schemas.android.com/apk/res/[your package name]'에 속한다. 
 
@@ -123,7 +122,7 @@ Custom 속성을 정의한 후에는 기본 제공되는 속성처럼 레이아�
 
 긴 namespace URI를 반복하지 않도록 샘플에서는 xmlns 지시문을 사용한다. 이 지시문은 'http://schemas.android.com/apk/res/net.dudmy.customviews' namespace를 별칭 custom에 할당한다. Namespace에 대해 원하는 별칭은 선택할 수 있다.
 
-> *참고로, custom attributes 사용을 위해 추가하는 namespace를 'http://schemas.android.com/apk/res/[your package name]' 대신 'http://schemas.android.com/apk/res-auto'를 사용해도 된다. [#2][Define Custom Attributes]*
+> 참고로, custom attributes 사용을 위해 추가하는 namespace를 'http://schemas.android.com/apk/res/[your package name]' 대신 'http://schemas.android.com/apk/res-auto'를 사용해도 된다. [#2][Define Custom Attributes]
 
 ```xml
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -162,8 +161,8 @@ public PieChart(Context context, AttributeSet attrs) {
 }
 ```
 
-> *주의사항!*  
-> *[TypedArray][typedArray] 객체는 공유 resource이므로 사용 후 반드시 재활용해야 한다. 이를 위해 try-finally에서 recycle()을 호출한다. 할당되어 있던 메모리를 풀에 즉시 돌려줘서 GC 될 때까지 기다릴 필요가 없게 된다. [#2][Apply Custom Attributes]*
+> **주의사항!**  
+> [TypedArray][typedArray] 객체는 공유 resource이므로 사용 후 반드시 재활용해야 한다. 이를 위해 try-finally에서 recycle()을 호출한다. 할당되어 있던 메모리를 풀에 즉시 돌려줘서 GC 될 때까지 기다릴 필요가 없게 된다. [#2][Apply Custom Attributes]
 
 ## Add Properties and Events
 
@@ -183,9 +182,9 @@ public void setShowText(boolean showText) {
 
 setter에서 [invalidate()](https://developer.android.com/reference/android/view/View.html#invalidate())와 [requestLayout()](https://developer.android.com/reference/android/view/View.html#requestLayout())을 부르는 것은 뷰가 안정적으로 작동하는지 확인하는 데 중요하다. 외형에 영향을 주는 속성을 변경한 경우, 뷰를 무효화해야 다시 그려야 한다는 것을 시스템이 알 수 있다. 마찬가지로, 크기나 모양에 영향을 주는 속성이 변경된 경우 새로운 레이아웃을 요청해야 한다. 이러한 메소드 호출을 잊어버리면 찾기 힘든 버그가 발생할 수 있다. [#2][Add Properties and Events]
 
-> *Invalidate?*  
-> *이 단어의 사전적 의미는 '무효화하다'이다. 즉, invalidate()를 호출하면 해당 뷰 전체가 무효화된다. 만약 뷰가 visible 상태이면, 미래의 어느 시점에서 onDraw()가 호출될 것이다.*  
-> *주의사항으로 이는 반드시 UI 스레드에서 호출해야 한다. Non-UI 스레드에서 호출하려면 postInvalidate()를 이용하면 된다.*
+> **Invalidate?**  
+> 이 단어의 사전적 의미는 '무효화하다'이다. 즉, invalidate()를 호출하면 해당 뷰 전체가 무효화된다. 만약 뷰가 visible 상태이면, 미래의 어느 시점에서 onDraw()가 호출될 것이다.  
+> 주의사항으로 이는 반드시 UI 스레드에서 호출해야 한다. Non-UI 스레드에서 호출하려면 postInvalidate()를 이용하면 된다.
 
 또한, custom view는 중요한 이벤트를 전달하기 위한 이벤트 리스너를 지원해야 한다. 예를 들어, PieChart에서는 OnCurrentItemChanged 라는 이벤트를 공개하여 사용자가 pie chart를 회전하여 새로운 pie 조각에 포커스를 맞춘 것을 리스너에게 알려야 한다. [#3][Add Properties and Events]
 
@@ -198,11 +197,6 @@ Custom view는 넓은 범위의 사용자를 고려하여 지원해야 한다. �
 * android:contentDescription 속성을 사용하여 입력란에 라벨을 지정
 * 적절한 경우 [sendAccessibilityEvent()](https://developer.android.com/reference/android/view/accessibility/AccessibilityEventSource.html#sendAccessibilityEvent(int))를 호출하여 접근성 이벤트 보내기
 * D-pad 및 트랙볼과 같은 대체 컨트롤러를 지원
-
-> 목차
-> 1. [안드로이드 Custom View 만들기 - 1 (본글입니다)](http://dudmy.net/android/2017/08/20/create-custom-views-1/)
-> 2. [안드로이드 Custom View 만들기 - 2](http://dudmy.net/android/2017/10/03/create-custom-views-2/)
-
 
 
 [view]: https://developer.android.com/reference/android/view/View.html

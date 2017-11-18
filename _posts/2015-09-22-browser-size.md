@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "브라우저의 창 크기 구하기"
-categories:
-  - JavaScript
+excerpt:
+categories: [javaScript]
 comments: true
 ---
 

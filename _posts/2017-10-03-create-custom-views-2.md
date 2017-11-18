@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "안드로이드 Custom View 만들기 - 2"
-categories:
-  - Android
+excerpt:
+categories: [android]
 comments: true
 ---
 
@@ -10,15 +10,16 @@ comments: true
 
 P.S. [GitHub Repo Issues](https://github.com/dudmy/Android-Training)
 
-　  
 
 # Implementing Custom Drawing
 
-Custom view에서 가장 중요한 부분은 외관이다. Custom 드로잉은 애플리케이션의 필요에 따라 쉽거나 복잡할 수 있다. 이 레슨에서는 가장 일반적인 작업에 관해 설명한다.
+Custom view에서 가장 중요한 부분은 외관이다. Custom 드로잉은 애플리케이션의 필요에 따라 쉽거나 복잡할 수 있다.  
+이 레슨에서는 가장 일반적인 작업에 관해 설명한다.
 
 ## Override onDraw()
 
-Custom view 그리기에서 가장 중요한 단계는 [onDraw()][onDraw] 메소드를 재정의 하는 것이다. [onDraw()][onDraw]의 파라미터는 뷰가 자신을 그릴 때 사용할 수 있는 [Canvas][canvas] 객체이다. [Canvas][canvas] 클래스는 텍스트, 선, 비트맵 및 다른 많은 그래픽 primitive를 그리는 방법을 정의한다. 이러한 [onDraw()][onDraw] 메소드를 사용하여 custom 사용자 인터페이스를 만들 수 있다. [#1][Override onDraw]
+Custom view 그리기에서 가장 중요한 단계는 [onDraw()][onDraw] 메소드를 재정의 하는 것이다.  
+[onDraw()][onDraw]의 파라미터는 뷰가 자신을 그릴 때 사용할 수 있는 [Canvas][canvas] 객체이다. [Canvas][canvas] 클래스는 텍스트, 선, 비트맵 및 다른 많은 그래픽 primitive를 그리는 방법을 정의한다. 이러한 [onDraw()][onDraw] 메소드를 사용하여 custom 사용자 인터페이스를 만들 수 있다. [#1][Override onDraw]
 
 ## Create Drawing Objects
 
@@ -48,7 +49,8 @@ private void init() {
 }
 ```
 
-객체를 미리 생성하는 것은 중요한 최적화이다. 뷰는 매우 빈번히 다시 그려지고, 많은 드로잉 객체들은 값비싼 초기화를 필요로 한다. [onDraw()][onDraw] 메소드 내에서 드로잉 객체를 만들면 성능이 크게 저하되고 UI가 느리게 보일 수 있다.
+객체를 미리 생성하는 것은 중요한 최적화이다. 뷰는 매우 빈번히 다시 그려지고, 많은 드로잉 객체들은 값비싼 초기화를 필요로 한다.  
+[onDraw()][onDraw] 메소드 내에서 드로잉 객체를 만들면 성능이 크게 저하되고 UI가 느리게 보일 수 있다.
 
 ## Handle Layout Events
 
@@ -75,7 +77,8 @@ float hh = (float)h - ypad;
 float diameter = Math.min(ww, hh);
 ```
 
-만약 뷰의 레이아웃 파라미터를 보다 세밀하게 제어해야 한다면 [onMeasure()][om]를 구현하면 된다. 이 메소드의 파라미터는 View.MeasureSpec 값으로, 뷰의 부모가 뷰를 얼마나 크게하고 싶은지 그리고 그 크기가 최댓값인지 또는 그저 권장값인지를 나타낸다. 최적화로서, 이 값은 압축된 정수로 저장되며 View.MeasureSpec의 static 메소드를 사용하여 각 정수에 저장된 정보를 풀어서 사용한다. [#1][Handle Layout Events]
+만약 뷰의 레이아웃 파라미터를 보다 세밀하게 제어해야 한다면 [onMeasure()][om]를 구현하면 된다.  
+이 메소드의 파라미터는 View.MeasureSpec 값으로, 뷰의 부모가 뷰를 얼마나 크게하고 싶은지 그리고 그 크기가 최댓값인지 또는 그저 권장값인지를 나타낸다. 최적화로서, 이 값은 압축된 정수로 저장되며 View.MeasureSpec의 static 메소드를 사용하여 각 정수에 저장된 정보를 풀어서 사용한다. [#1][Handle Layout Events]
 
 ```java
 @Override
@@ -99,23 +102,19 @@ protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
 * Helper 메소드인 resolveSizeAndState()는 최종 너비와 높이를 만드는 데 사용된다. 이 helper는 뷰가 생각하는 크기를 [onMeasure()][om]에 전달된 스펙과 비교하여 적절한 View.MeasureSpec 값을 리턴한다.
 * [onMeasure()][om]는 리턴값이 없다. 대신에, setMeasuredDimension()을 호출하여 결과를 전달한다. 이 메소드는 필수적으로 호출해야 한다. 만약 이 호출을 빼먹는다면 [View][view] 클래스가 런타임 예외를 발생시킨다.
 
-> *Blah Blah...*  
-> *일반적으로 뷰를 그리는데 중요한 세 가지 메소드로 onLayout(), onMeasure(), onDraw() 를 뽑는다. 어디에 위치할지 계산하고 어떻게 그릴지 측정하고 실제로 화면에 그리는 대부분 과정이 여기에 포함된다. 근데 막상 진행해보니 꼭 수학 문제를 푸는 것 같이 너무 복잡하다. 오픈 소스로 공개된 Custom View 코드들을 봐도 이해하기가 어렵다. 이것도 많이 구현해보는 게 답일까?*
+> **Thinking...**  
+> 일반적으로 뷰를 그리는데 중요한 세 가지 메소드로 onLayout(), onMeasure(), onDraw() 를 뽑는다. 어디에 위치할지 계산하고 어떻게 그릴지 측정하고 실제로 화면에 그리는 대부분 과정이 여기에 포함된다. 근데 막상 진행해보니 꼭 수학 문제를 푸는 것 같이 너무 복잡하다. 오픈 소스로 공개된 Custom View 코드들을 봐도 이해하기가 어렵다. 이것도 많이 구현해보는 게 답일까?
 
 ## Draw!
 
-객체 생성 및 측정 코드를 정의한 후에는, [onDraw()][onDraw]를 구현할 수 있다. 모든 뷰는 [onDraw()][onDraw]를 별도로 구현하지만, 대부분의 뷰에서는 몇 가지 공통된 작업이 있다. [#1][Draw]
+객체 생성 및 측정 코드를 정의한 후에는, [onDraw()][onDraw]를 구현할 수 있다.  
+모든 뷰는 [onDraw()][onDraw]를 별도로 구현하지만, 대부분의 뷰에서는 몇 가지 공통된 작업이 있다. [#1][Draw]
 
 * drawText()를 사용하여 텍스트를 그린다. setTypeface()를 호출하여 서체를 지정하고 setColor()를 호출하여 텍스트 색상을 지정한다.
 * drawRect(), drawOval() 그리고 drawArc()를 사용하여 기본 도형을 그린다. setStyle()을 호출하여 도형의 채우기, 윤곽선 또는 두 가지 모두를 변경한다.
 * Path 클래스를 사용하여 더욱 복잡한 모양을 그린다. Path 객체에 선과 곡선을 추가하여 모양을 정의한 다음, drawPath()를 사용하여 모양을 그린다. 기본 도형과 마찬가지로 setStyle()에 따라 경로를 채우기, 윤곽선 또는 두 가지 모두가 될 수 있다.
 * LinearGradient 객체를 만들어 gradient 채우기를 정의한다. LinearGradient를 사용하여 모양을 채우려면 setShader()를 호출한다.
 * drawBitmap()을 사용하여 비트맵을 그린다.
-
-> 목차
-> 1. [안드로이드 Custom View 만들기 - 1](http://dudmy.net/android/2017/08/20/create-custom-views-1/)
-> 2. [안드로이드 Custom View 만들기 - 2 (본글입니다)](http://dudmy.net/android/2017/10/03/create-custom-views-2/)
-
 
 
 [onDraw]: https://developer.android.com/reference/android/view/View.html#onDraw(android.graphics.Canvas)

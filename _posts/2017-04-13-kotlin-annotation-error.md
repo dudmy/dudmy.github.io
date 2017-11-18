@@ -1,15 +1,10 @@
 ---
 layout: post
 title: "Kotlin 사용하기? unresolved reference error"
-categories:
-  - Android
+excerpt: "Dagger2 + DataBinding 을 이용하는 프로젝트에 Kotlin을 사용? 적용? 해본다."
+categories: [android]
 comments: true
 ---
-
-Dagger2 + DataBinding 을 이용하는 프로젝트에 Kotlin을 사용해보자!  
-이를 위한 사전 작업인 플러그인은 설치되었다는 가정하에...  
-
-　  
 
 ## 기본적인 코틀린 세팅  
 
@@ -17,7 +12,7 @@ Dagger2 + DataBinding 을 이용하는 프로젝트에 Kotlin을 사용해보자
 
 [build.gradle]  
 
-```
+```groovy
 buildscript {
     dependencies {
         // ...
@@ -28,7 +23,7 @@ buildscript {
 
 [app/build.gradle]  
 
-```
+```groovy
 apply plugin: 'kotlin-android'
 
 android {
@@ -43,7 +38,7 @@ dependencies {
     // ...
 }
 ```
-　
+
 
 ## Error: Unresolved reference: Dagger...Component  
 
@@ -56,7 +51,7 @@ dependencies {
 
 [app/build.gradle]  
 
-```
+```groovy
 apply plugin: 'kotlin-kapt'
 
 dependencies {
@@ -65,7 +60,7 @@ dependencies {
     // ...
 }
 ```
-　
+
 
 ## Error: Some error(s) occurred while processing annotations. Please see the error messages above.  
 
@@ -74,14 +69,14 @@ dependencies {
 
 [app/build.gradle]  
 
-```
+```groovy
 dependencies {
     // ...
     kapt 'com.android.databinding:compiler:2.3.1'
     // ...
 }
 ```
-　
+
 
 ## DataBinding error(s) ing... 
 
@@ -93,7 +88,7 @@ Extensions를 이용하면 별도의 뷰 인스턴스 선언 없이 id에 바로
 
 [app/build.gradle]  
 
-```
+```groovy
 apply plugin: 'kotlin-android-extensions'
 ```
 

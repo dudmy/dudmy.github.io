@@ -1,17 +1,17 @@
 ---
 layout: post
 title: "안드로이드 로딩 화면 구현하기"
-categories:
-  - Android
+excerpt: "애플리케이션을 실행했을 때 로딩 화면 (인트로)이 나타나도록 구현한다. 예를 들면 카카오톡처럼 로고를 보여주는 것이다."
+categories: [android]
 comments: true
 ---
 
-애플리케이션을 실행했을 때 로딩 화면 (인트로)이 나타나도록 구현한다. 예를 들면 카카오톡처럼 로고를 보여주는 것이다. 로딩 화면을 구현하는 방법은 두 가지로 나눌 수 있는데, 로딩 화면을 메인으로 설정하는 방법과 메인 화면에서 로딩 화면을 호출하는 방법이다.
+로딩 화면을 구현하는 방법은 두 가지로 나눌 수 있는데, 로딩 화면을 메인으로 설정하는 방법과 메인 화면에서 로딩 화면을 호출하는 방법이다.
 
 전자는 앱의 시작점을 로딩 화면으로 설정하는 것으로 LoadingActivity → MainActivity 순서로 실행된다. 후자는 기본 시작점인 메인 화면에서 로딩 화면을 호출하는 것으로 MainActivity → LoadingActivity → MainActivity 순서로 실행된다.
 
 방법의 차이일 뿐, 두 방법 모두 같은 결과물을 보여준다.  
-　
+
 
 ### 로딩 화면을 메인으로 설정
 
@@ -35,7 +35,6 @@ comments: true
 
 </LinearLayout>
 ```
-
 
 * **LoadingActivity.java**
 
@@ -84,8 +83,7 @@ public class LoadingActivity extends Activity {
 </activity>
 <activity android:name=".MainActivity" ></activity>
 ```
-  
-　
+
 
 ### 메인 화면에서 로딩 화면 호출
 

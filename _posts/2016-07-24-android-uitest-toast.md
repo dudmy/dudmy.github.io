@@ -1,15 +1,15 @@
 ---
 layout: post
 title: "안드로이드 UI 테스트에서 Toast 체크하기"
-categories:
-  - Android
+excerpt:
+categories: [android]
 comments: true
 ---
 
 얼마 전에 회사에서 Process 검증을 위한 UI 테스트 코드를 짜게 되었다. Unit 테스트 코드는 짜봤지만, UI 테스트는 처음이라 대부분 새로운 내용이었고 하면서도 올바르게 짜고 있는지 의문이 많이 들었다.  
 
 그래도 지난달 다녀온 Google I/O 2016 Extended Seoul에서 정승욱 님의 [Advanced Espresso](http://www.slideshare.net/ssuser70b5b8/advanced-espresso-io16-extend-seoul) 발표를 듣고 많이 참고할 수 있었다. 물론 봐도 적용을 못 한 게 대부분이지만 하하...  
-　  
+
 
 ## Toast 체크하기
 

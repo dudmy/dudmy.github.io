@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "제이쿼리 선택자 정리"
-categories:
-  - JavaScript
+excerpt:
+categories: [javaScript]
 comments: true
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "첫 번째 경력에 대한 회고"
-categories:
-  - Chatter
+excerpt:
+categories: [blah]
 comments: true
 ---
 

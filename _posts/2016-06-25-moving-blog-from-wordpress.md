@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Wordpress에서 GitHub Pages로 이사중"
-categories:
-  - Chatter
+excerpt:
+categories: [blah]
 comments: true
 ---
 

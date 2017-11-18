@@ -1,30 +1,50 @@
-# Permalinks
-permalink:          pretty
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: Dudmy's Blog
+description: A blog to strive to survive as a developer.
+url: http://dudmy.github.io
+keywords: ["Programming", "Android", "Java", "Kotlin"]
 
-# Setup
-title:              Dudmy's blog
-tagline:            'Funny n Happy'
-description:        'It is a blog that records about experiences. It contains information about development and the current feelings I feel.'
-url:                http://dudmy.github.io
-baseurl:            ''
+#
+###################################
+# Jekyll configuration
+####################################
+#
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
 
-# About/contact
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+###################################
+# Author configuration
+####################################
+#
 author:
-  name:             Dudmy
-  email:            dudmy@dudmy.net
+  name: Dudmy
+  avatar: logo.png
+  email: dudmy@dudmy.net
+  job: "Android Developer"
+  bio: "An android developer who does not like to come out of bed."
 
-# Social link
-github:             https://github.com/dudmy
-linkedin:           https://www.linkedin.com/in/dudmy
-resume:             https://github.com/dudmy/resume
-
-# Gems
-gems:               [jekyll-paginate, jekyll-sitemap, jekyll-seo-tag]
-paginate:           5
-paginate_path:      "page:num"
-
-# Custom vars
-version:             1.0.0
-
-# Etc
-google-analytics:   UA-65643570-2
+#
+###################################
+# Social configuration
+####################################
+#
+resume: https://github.com/dudmy/resume
+disqus-shortname: dudmysblog
+facebook: #username
+github: dudmy #username
+linkedin: dudmy #username
+instagram: #username
+google-analytics: UA-65643570-2

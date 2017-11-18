@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "리스트 항목에 Ripple effect 적용"
-categories:
-  - Android
+excerpt:
+categories: [android]
 comments: true
 ---
 
@@ -22,7 +22,7 @@ comments: true
 </LinearLayout>
 ```
 
-![lire-1]({{ site.url }}/public/post/20160214/lire-1.png)
+![lire-1]({{ site.url }}/img/post/20160214/lire-1.png)
 
 ### 뷰를 넘어 확장되는 물결 효과
 
@@ -36,4 +36,4 @@ comments: true
 </LinearLayout>
 ```
 
-![lire-2]({{ site.url }}/public/post/20160214/lire-2.png)
+![lire-2]({{ site.url }}/img/post/20160214/lire-2.png)
