@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Kotlin 사용하기? unresolved reference error"
-excerpt: "Dagger2 + DataBinding 을 이용하는 프로젝트에 Kotlin을 사용? 적용? 해본다."
-categories: [android]
+categories: android
 comments: true
 ---
 

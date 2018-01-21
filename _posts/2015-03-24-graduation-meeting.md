@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "졸업 프로젝트 회의록"
-excerpt: "T.noorim (카페를 누리다) 프로젝트를 위해 진행한 회의록이다."
-categories: [etc]
+categories: etc
 comments: true
 ---
 
@@ -106,7 +105,7 @@ comments: true
 
 **전체적인 일정표**
 
-![gm]({{ site.url }}/img/post/20150324/gm.jpg)
+![gm]({{ site.url }}/assets/post/20150324/gm.jpg)
 
 
 ## 5차 회의 - 2015.05.22

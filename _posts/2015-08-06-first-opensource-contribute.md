@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "처음으로 오픈소스에 기여하다"
-excerpt:
-categories: [blah]
+categories: blah
 comments: true
 ---
 

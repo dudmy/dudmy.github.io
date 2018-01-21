@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "자바의 추상클래스와 인터페이스"
-excerpt:
-categories: [java]
+categories: java
 comments: true
 ---
 

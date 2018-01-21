@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "RecyclerView에 대한 고찰"
-excerpt: "대부분의 애플리케이션에서 아이템 목록을 보여주기 위해 RecyclerView를 사용한다. 이에 대한 기본적인 개념은 알고 있다고 생각했지만, 면접을 보다 보니 놓치고 있는 부분도 많았다. 그래서 알고 있는 내용에 대해 한 번 정리를 해보려고 한다."
-categories: [android]
+categories: android
 comments: true
 ---
 

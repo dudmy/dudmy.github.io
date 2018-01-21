@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "첫 번째 경력에 대한 회고"
-excerpt:
-categories: [blah]
+categories: blah
 comments: true
 ---
 

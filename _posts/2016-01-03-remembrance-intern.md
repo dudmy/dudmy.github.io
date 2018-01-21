@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "4개월간의 인턴생활을 마치며"
-excerpt: "짧다면 짧고 길다면 긴 4개월간의 인턴생활이 2015년 12월 31일부로 끝났다. 그 시간 동안 어떠한 일을 했고 이를 통해 무엇을 얻었는지 정리할 겸, 지난날의 내 생활을 돌아보고 글로 기록해본다."
-categories: [blah]
+categories: blah
 comments: true
 ---
 

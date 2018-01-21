@@ -1,12 +1,11 @@
 ---
 layout: post
 title: "졸업 프로젝트 판넬"
-excerpt: "T.noorim (카페를 누리다) 프로젝트 발표를 위한 판넬이다."
-categories: [etc]
+categories: etc
 comments: true
 ---
 
-![gpp-1]({{ site.url }}/img/post/20150530/gpp-1.png)
+![gpp-1]({{ site.url }}/assets/post/20150530/gpp-1.png)
 
 ### 프로젝트 정보
 

@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "웹 개발 공부 시작"
-excerpt:
-categories: [web]
+categories: web
 comments: true
 ---
 

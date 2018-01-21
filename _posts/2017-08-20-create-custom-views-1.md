@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "안드로이드 Custom View 만들기 - 1"
-excerpt:
-categories: [android]
+categories: android
 comments: true
 ---
 

@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Parse.com 서비스 종료"
-excerpt:
-categories: [etc]
+categories: etc
 comments: true
 ---
 

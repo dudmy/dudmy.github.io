@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "CharSequence와 String의 차이 (feat. StringSpannableBuilder)"
-excerpt: "아는 것 같지만 설명하라면 입이 떨어지지 않는 얕은 지식을 깊게 파보려고 한다. 본 포스트에서는 안드로이드에서 텍스트를 다룰 때 주로 사용하는 CharSequence와 String의 차이에 대해 알아본다."
-categories: [android]
+categories: android
 comments: true
 ---
 

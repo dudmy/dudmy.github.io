@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Google Developers Codelabs 시작?"
-excerpt:
-categories: [android]
+categories: android
 comments: true
 ---
 
@@ -14,7 +13,7 @@ comments: true
 
 요즘은 MVP 패턴에 대해서 알아보고 있다. (시작만 하고 진행은 안 되고 있다는 게 맞는 표현갔지만) 여러 예제와 설명을 보고 있는 와중에 [Google Developers Codelabs](https://codelabs.developers.google.com) 페이지에 대해 알게 되었다.  
 
-![gdc-1]({{ site.url }}/img/post/20160915/gdc-1.png)  
+![gdc-1]({{ site.url }}/assets/post/20160915/gdc-1.png)  
 
 > CodeLab is an online program for learning and practicing computer programming. CodeLab is available to you anywhere you have access to the world wide web. It is delivered and supported by a company called Turing's Craft.
 

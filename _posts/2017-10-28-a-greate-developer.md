@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "A great developer"
-excerpt: "정말 멋진 개발자의 정의란 무잇얼까?"
-categories: [blah]
+categories: blah
 comments: true
 ---
 

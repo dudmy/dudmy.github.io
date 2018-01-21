@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "AWS에 워드프레스 설치하기 3 (웹서버 설치)"
-excerpt:
-categories: [web]
+categories: web
 comments: true
 ---
 
@@ -17,39 +16,39 @@ comments: true
 
 1.　[PuTTY Download Page](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)에서 putty.exe 파일, puttygen.exe 파일 다운
 
-![awi-1]({{ site.url }}/img/post/20150706/awi-1.png)
+![awi-1]({{ site.url }}/assets/post/20150706/awi-1.png)
 
 2.　puttygen.exe 실행→ Load 클릭 후 xxx.pem 파일 선택
 
 EC2 인스턴스 생성 시 다운로드 한 private key file (*.pem)이 필요하다.
 
-![awi-2]({{ site.url }}/img/post/20150706/awi-2.png)
+![awi-2]({{ site.url }}/assets/post/20150706/awi-2.png)
 
 3.　Save private key 클릭
 
 xxx.pem 파일이 ppk 파일로 저장된다. ppk 파일은 PuTTY에 사용하기에 올바른 형식으로 되어있어, PuTTY의 SSH 클라이언트를 사용하여 EC2 인스턴스에 연결할 수 있다.
 
-![awi-3]({{ site.url }}/img/post/20150706/awi-3.png)
+![awi-3]({{ site.url }}/assets/post/20150706/awi-3.png)
 
 4.　putty.exe 클릭
 
-![awi-4]({{ site.url }}/img/post/20150706/awi-4.png)
+![awi-4]({{ site.url }}/assets/post/20150706/awi-4.png)
 
 5.　Host Name에 EC2 인스턴스의 Public IP (ex. 12.34.56.789) 입력
 
 Public IP는 AWS 관리자 콘솔→ EC2 → Instances에서 인스턴스 선택 후  Connect를 클릭하면 4번에 주소가 나온다.
 
-![awi-5]({{ site.url }}/img/post/20150706/awi-5.png)
+![awi-5]({{ site.url }}/assets/post/20150706/awi-5.png)
 
-![awi-6]({{ site.url }}/img/post/20150706/awi-6.png)
+![awi-6]({{ site.url }}/assets/post/20150706/awi-6.png)
 
 6.　카테고리에서 Connection - SSH - Auth 선택→ Browse 클릭→ xxx.ppk 파일 선택→ Open 클릭
 
-![awi-7]({{ site.url }}/img/post/20150706/awi-7.png)
+![awi-7]({{ site.url }}/assets/post/20150706/awi-7.png)
 
 7.　ubuntu 입력하면 접속 완료
 
-![awi-8]({{ site.url }}/img/post/20150706/awi-8.png)
+![awi-8]({{ site.url }}/assets/post/20150706/awi-8.png)
 
 
 ### Ubuntu에 APM 웹서버 설치
@@ -96,15 +95,15 @@ sudo service apache2 restart
 
 6.　브라우저에서 Public IP/wordpress (ex. 12.34.56.789/wordpress)로 접속하면 아래와 같은 화면이 등장 → Let's go! 클릭
 
-![awi-9]({{ site.url }}/img/post/20150706/awi-9.png)
+![awi-9]({{ site.url }}/assets/post/20150706/awi-9.png)
 
 7.　각 항목 입력 후 전송 클릭
 
 데이터베이스 이름, 사용자 이름, 비밀번호에 RDS 인스턴스 생성 시 만든 Database Name, Master Username, Master Password를 입력한다. 데이터베이스 호스트는 AWS 관리자 콘솔 → RDS → Instances에서 인스턴스 선택 후 해당 Endpoint를 입력한다.
 
-![awi-10]({{ site.url }}/img/post/20150706/awi-10.png)
+![awi-10]({{ site.url }}/assets/post/20150706/awi-10.png)
 
-![awi-11]({{ site.url }}/img/post/20150706/awi-11.png)
+![awi-11]({{ site.url }}/assets/post/20150706/awi-11.png)
 
 8.　PuTTY로 파일 생성 후 설치 실행하기 클릭  
 
@@ -116,10 +115,10 @@ sudo vi /var/www/html/wordpress/wp-config.php
 
 * 다음의 텍스트 복사 후 wp-config.php 파일에 붙여넣기 (오른쪽 마우스 클릭)
 
-![awi-12]({{ site.url }}/img/post/20150706/awi-12.png)
+![awi-12]({{ site.url }}/assets/post/20150706/awi-12.png)
 
 * 키보드 Esc 누른 후 :wq! 입력 (w: 저장, q!: 종료 → 저장 후 종료)
 
 9.　워드프레스 설치 완료
 
-![awi-13]({{ site.url }}/img/post/20150706/awi-13.png)
+![awi-13]({{ site.url }}/assets/post/20150706/awi-13.png)

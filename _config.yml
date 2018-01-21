@@ -1,54 +1,28 @@
-#
-###################################
-# Site wide configuration
-####################################
-#
+# Site settings
 title: Dudmy's Blog
-description: A blog to strive to survive as a developer.
-url: http://dudmy.github.io
-keywords: ["Programming", "Android", "Java", "Kotlin"]
+description: A homebody trying to survive as a developer.
+cover: "/assets/cover.jpeg"
+logo: "/assets/logo.png"
 
-#
-###################################
-# Jekyll configuration
-####################################
-#
+# Author
+name: Dudmy
+email: dudmy@dudmy.net
+
+# Gem settings
+gems:
+  - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# Build settings
 markdown: kramdown
-highlighter: rouge
-permalink: pretty
+paginate: 5
+paginate_path: "/page:num/"
+highlightjs_theme: "monokai-sublime"
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
+# Disqus comments
+disqus_shortname: dudmysblog
 
-plugins: [jekyll-sitemap, jekyll-seo-tag]
-
-#
-###################################
-# Author configuration
-####################################
-#
-author:
-  name: Dudmy
-  avatar: logo.png
-  email: dudmy@dudmy.net
-  job: "Android Developer"
-  bio: "An android developer who does not like to come out of bed."
-
-#
-###################################
-# Social configuration
-####################################
-#
-resume: https://github.com/dudmy/resume
-disqus-shortname: dudmysblog
-facebook: #username
-github: dudmy #username
-linkedin: dudmy #username
-instagram: #username
-google-analytics: UA-65643570-2
-
-theme: jekyll-theme-midnight
+# Google analytics
+ga_tracking_id: "UA-65643570-2"

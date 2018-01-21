@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "졸업 프로젝트 소개서"
-excerpt: "T.noorim (카페를 누리다) 프로젝트에 대한 소개서이다."
-categories: [etc]
+categories: etc
 comments: true
 ---
 

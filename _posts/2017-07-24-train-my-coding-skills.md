@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Train my coding skills"
-excerpt:
-categories: [algorithm]
+categories: algorithm
 comments: true
 ---
 

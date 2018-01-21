@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "오픈소스 위지윅 에디터, Summernote"
-excerpt: "학교에서 웹 개발 관련 프로젝트에 참여하고 있다. 게시판을 제작하던 중에 글 작성에 사용할 WYSIWYG Editor가 필요했다. 웹 개발 경험이 적어 단어 조차 처음 들어보았지만, 이번 기회에 에디터를 사용해본다."
-categories: [web]
+categories: web
 comments: true
 ---
 
@@ -12,7 +11,7 @@ comments: true
 
 사용할 위지윅 에디터는 국내에서 시작된 오픈소스 프로젝트로 한국 개발자들이 만든 에디터다. Super simple WYSIWYG Editor using Bootstrap 라는 설명만큼 간단한 설정만으로 사용할 수 있다.
 
-![wes-1]({{ site.url }}/img/post/20150731/wes-1.png)  
+![wes-1]({{ site.url }}/assets/post/20150731/wes-1.png)  
 
 
 ### WYSIWYG Editor 적용하기

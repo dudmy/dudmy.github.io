@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Android Studio와 GitHub 연동"
-excerpt:
-categories: [android]
+categories: android
 comments: true
 ---
 
@@ -13,23 +12,23 @@ comments: true
 
 1.　GitHub에서 새로운 Repository 생성
 
-![asgs-1]({{ site.url }}/img/post/20150811/asgs-1.png)
+![asgs-1]({{ site.url }}/assets/post/20150811/asgs-1.png)
 
 2.　Android Studio에서 새로운 Project 생성
 
 기존에 생성된 프로젝트로 진행해도 무관하다. 뒤의 과정은 생략...
 
-![asgs-2]({{ site.url }}/img/post/20150811/asgs-2.png)
+![asgs-2]({{ site.url }}/assets/post/20150811/asgs-2.png)
 
 3.　프로젝트 생성 또는 연 후, 상단 메뉴에서 VCS(Version Control System) → Import into Version Control → Create Git Repository... 클릭
 
-![asgs-3]({{ site.url }}/img/post/20150811/asgs-3.png)
+![asgs-3]({{ site.url }}/assets/post/20150811/asgs-3.png)
 
 4.　Git으로 관리할 프로젝트를 선택한 후 OK 클릭
 
 'git init'은 기존 프로젝트를 Git으로 관리하고 싶을 때 실행하는 명령어이다.
 
-![asgs-4]({{ site.url }}/img/post/20150811/asgs-4.png)
+![asgs-4]({{ site.url }}/assets/post/20150811/asgs-4.png)
 
 5.　해당 프로젝트의 최상위 폴더에서 오른쪽 마우스 버튼 클릭 → Git Bash 클릭 → command 창에 명령어 입력
 
@@ -49,29 +48,29 @@ git remote add origin https://github.com/dudmy/CheckitLife.git
 
 소스 코드에 변동사항이 있을 경우, 해당 부분의 파일 색깔이 다르게 표시된다.
 
-![asgs-5]({{ site.url }}/img/post/20150811/asgs-5.png)
+![asgs-5]({{ site.url }}/assets/post/20150811/asgs-5.png)
 
 7.　Commit Message에 해당 커밋에 대한 설명(내용)을 입력한 후 Commit 클릭
 
-![asgs-6]({{ site.url }}/img/post/20150811/asgs-6.png)
+![asgs-6]({{ site.url }}/assets/post/20150811/asgs-6.png)
 
 8.　프로젝트 오른쪽 버튼 클릭 → Git → Repository → Push 클릭
 
-![asgs-7]({{ site.url }}/img/post/20150811/asgs-7.png)
+![asgs-7]({{ site.url }}/assets/post/20150811/asgs-7.png)
 
 9.　입력한 Commit Message 확인 후 Push current branch... 체크 → Push 클릭
 
 여기서는 기본 설정인 master branch를 이용한다.
 
-![asgs-8]({{ site.url }}/img/post/20150811/asgs-8.png)
+![asgs-8]({{ site.url }}/assets/post/20150811/asgs-8.png)
 
 10.　GitHub 로그인을 위한 정보 입력 후 OK 클릭
 
-![asgs-9]({{ site.url }}/img/post/20150811/asgs-9.png)
+![asgs-9]({{ site.url }}/assets/post/20150811/asgs-9.png)
 
 11.　Push 성공 및 Android Studio와 GitHub 연동 완료
 
 해당 프로젝트의 Repository에 가보면 소스 코드가 원격 저장소에 Push 된 것을 확인할 수 있다.
 
-![asgs-10]({{ site.url }}/img/post/20150811/asgs-10.png)
+![asgs-10]({{ site.url }}/assets/post/20150811/asgs-10.png)
 

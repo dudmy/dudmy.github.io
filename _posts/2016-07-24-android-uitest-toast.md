@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "안드로이드 UI 테스트에서 Toast 체크하기"
-excerpt:
-categories: [android]
+categories: android
 comments: true
 ---
 

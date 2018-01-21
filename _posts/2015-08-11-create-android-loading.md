@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "안드로이드 로딩 화면 구현하기"
-excerpt: "애플리케이션을 실행했을 때 로딩 화면 (인트로)이 나타나도록 구현한다. 예를 들면 카카오톡처럼 로고를 보여주는 것이다."
-categories: [android]
+categories: android
 comments: true
 ---
 

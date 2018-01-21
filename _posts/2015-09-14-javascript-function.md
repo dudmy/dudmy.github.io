@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "자바스크립트의 함수 (function)"
-excerpt:
-categories: [javaScript]
+categories: javaScript
 comments: true
 ---
 

@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "select box의 option 찾기"
-excerpt:
-categories: [javaScript]
+categories: javaScript
 comments: true
 ---
 

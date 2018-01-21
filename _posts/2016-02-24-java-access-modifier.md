@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "자바의 접근지정자와 캡슐화"
-excerpt: "접근지정자(Access Modifier)는 클래스 내의 변수나 메소드의 접근을 제어하는 역할을 의미한다. 우선 접근제어자를 사용하는 이유를 알아본다."
-categories: [java]
+categories: java
 comments: true
 ---
 
