@@ -10,7 +10,6 @@ email: dudmy@dudmy.net
 
 # Gem settings
 gems:
-  - jekyll-archives
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
