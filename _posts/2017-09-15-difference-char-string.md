@@ -36,7 +36,7 @@ Java 프로그램의 모든 문자열 리터럴은 이 클래스의 인스턴스
 
 위에서 설명한 [CharSequence][char]와 [String][str]의 차이를 SpannableStringBuilder 예제를 통해서 알아본다. 그 전에 예제에 사용되는 클래스에 대해 간략히 설명하자면, [Spannable](https://developer.android.com/reference/android/text/Spannable.html)은 마크업 객체를 붙이고 분리할 수 있는 텍스트를 위한 인터페이스이다. 그리고 이를 implements 하여 구현되었으며, 색상 및 글꼴 두께와 같은 속성을 사용하여 스타일을 지정할 수 있는 텍스트 객체가 SpannableStringBuilder 이다.
 
-샘플 코드: [https://github.com/dudmy/blog-sample](https://github.com/dudmy/blog-sample/tree/master/20170915-difference-char-string) 
+샘플 코드: [https://github.com/dudmy/blog-sample](https://github.com/dudmy/blog-sample/tree/master/Difference-Char-String-Sample) 
 
 ```java
 public CharSequence getTextWithIcon(String text, Drawable icon) {
