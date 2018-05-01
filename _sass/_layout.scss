@@ -250,7 +250,6 @@ pre code.hljs {
 	img {
 		display: block;
 		margin: auto;
-		width: 90%;
 	}
 	/*
 	*	Posts
@@ -316,6 +315,10 @@ pre code.hljs {
 				margin: 1em 0;
 				text-align: right;
 			}
+		}
+		blockquote {
+			color: $medium-gray;
+			background-color: #fbfbfb;
 		}
 	}
 	/*
