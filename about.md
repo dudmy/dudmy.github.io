@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-### Jung Yujin / Junior Software Enginner
+### Jung Yujin / Software Enginner
 
 * [GitHub](https://github.com/dudmy)
 * [LinkedIn](https://www.linkedin.com/in/dudmy)
@@ -15,6 +15,7 @@ permalink: /about/
 ### Education
 
 * 2016 B.S. in Multimedia Engineering, Hansung University
+* 2013 - 2016, Digital Contents & Multimedia LAB, Hansung University
 
 ---
 
@@ -28,8 +29,8 @@ permalink: /about/
 
 ### Projects
 
-* [Dicdol (Dictionary of Idol)](https://github.com/dudmy/Dicdol) @ Toy
-* [T.noorim (카페를 누리다)](http://dudmy.net/etc/2015/03/02/graduation-project-intro/) @ HSU
+* [Dicdol (Dictionary of Idol)](https://github.com/dudmy/Dicdol) @Toy
+* [T.noorim (카페를 누리다)](http://dudmy.net/etc/2015/03/02/graduation-project-intro/) @HSU
 * [편의점에 특화된 유통기한 공동관리 앱](https://github.com/dudmy/Softcone) : Android, Parse, ZXing
 * [간단한 소통을 위한 공과대학 게시판](https://youtu.be/I7RpdKLdPY0) : Bootstrap, Apache Tomcat
 * [다자간 채팅 프로그램](https://youtu.be/lLacgR4pNm0) : TCP/IP, Windows Socket
