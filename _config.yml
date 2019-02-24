@@ -1,8 +1,7 @@
 # Site settings
-title: Dudmy's Blog
-description: A homebody trying to survive as a developer.
-cover: "/assets/cover.jpeg"
-logo: "/assets/logo.png"
+title: 더드미의 개발로그
+description: Lazy programmer powered by Caffeine. Eat, Sleep, < Code >, Repeat.
+cover: "/assets/cover.png"
 
 # Author
 name: Dudmy
@@ -17,7 +16,7 @@ gems:
 # Build settings
 markdown: kramdown
 permalink: pretty
-paginate: 5
+paginate: 10
 paginate_path: "/page:num/"
 highlightjs_theme: "monokai-sublime"
 
