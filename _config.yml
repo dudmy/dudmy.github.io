@@ -1,5 +1,6 @@
 # Site settings
-title: 더드미의 개발로그
+title: Dudmy's DevLog
+title_ko: 더드미의 개발로그
 description: Lazy programmer powered by Caffeine. Eat, Sleep, < Code >, Repeat.
 cover: "/assets/cover.png"
 
