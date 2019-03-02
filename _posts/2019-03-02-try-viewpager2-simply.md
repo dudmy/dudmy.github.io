@@ -17,7 +17,7 @@ comments: true
 implementation 'androidx.viewpager2:viewpager2:1.0.0-alpha01'
 ```
 
-Activity 또는 Fragment에 [ViewPager2][vp2] 위젯을 추가한다.
+그리고 Activity 또는 Fragment에 [ViewPager2][vp2] 위젯을 추가한다.
 
 ```xml
 <androidx.viewpager2.widget.ViewPager2
@@ -28,7 +28,7 @@ Activity 또는 Fragment에 [ViewPager2][vp2] 위젯을 추가한다.
 
 ## RecyclerView.Adapter
 
-[ViewPager2][vp2]에서는 RecyclerView.Adapter가 PagerAdapter를 대체하게 되었다. RecyclerView에서의 사용 방법과 같기 때문에 별도의 학습비용이 들지 않는다.
+[ViewPager2][vp2]에서는 RecyclerView.Adapter가 PagerAdapter를 대체한다. RecyclerView 사용법과 같기 때문에 별도의 학습비용이 없다는 장점이 있다.  
 
 ```kotlin
 class PagerRecyclerAdapter(private val bgColors: List<Int>) : RecyclerView.Adapter<PagerViewHolder>() {
@@ -65,7 +65,7 @@ pager.orientation = ViewPager2.ORIENTATION_HORIZONTAL
 
 ## FragmentStateAdapter
 
-FragmentStateAdapter를 이용하면 기존 [ViewPager][vp1]처럼 fragment로 구성할 수 있다. 기존 API인 FragmentStatePagerAdapter를 대체한 어댑터이다.
+FragmentStateAdapter를 이용하면 이전처럼 페이지 아이템을 프래그먼트로 구성할 수 있다. 기존 [ViewPager][vp1]의 FragmentStatePagerAdapter를 대체한 API이다.
 
 ```kotlin
 class PagerFragmentStateAdapter(private val bgColors: List<Int>, fm: FragmentManager) : FragmentStateAdapter(fm) {
@@ -100,7 +100,7 @@ class PagerFragment : Fragment() {
 }
 ```
 
-이번에는 수직 스크롤링으로 설정해보았다.
+이번에는 새롭게 지원되는 수직 스크롤링으로 설정해보았다.
 
 ```kotlin
 pager.adapter = PagerFragmentStateAdapter(bgColors, supportFragmentManager)

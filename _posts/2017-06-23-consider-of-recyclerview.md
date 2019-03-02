@@ -217,7 +217,7 @@ public MyAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
     holder.itemView.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            Toast.makeText(v.getContext(), getItem(position), Toast.LENGTH_SHORT).show();
+            Toast.makeText(v.getContext(), getItem(holder.getAdapterPosition()), Toast.LENGTH_SHORT).show();
         }
     });
     return holder;
