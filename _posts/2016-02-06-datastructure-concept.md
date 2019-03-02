@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "자료구조 개념 정리"
-categories: algorithm
+categories: programming
 comments: true
 ---
 

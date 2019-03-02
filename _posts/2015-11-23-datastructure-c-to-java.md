@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "C로 된 자료구조 Java로 바꾸기"
-categories: algorithm
+categories: programming
 comments: true
 ---
 

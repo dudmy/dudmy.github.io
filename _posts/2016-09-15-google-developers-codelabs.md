@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Google Developers Codelabs 시작?"
-categories: android
+categories: blah
 comments: true
 ---
 
