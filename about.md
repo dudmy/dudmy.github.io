@@ -23,14 +23,13 @@ permalink: /about/
 
 * Jul 2017 - Present, Android Developer, Kakao Corp.
 * Apr 2016 - Apr 2017, Android Developer, Lab6K
-* Sep 2015 - Dec 2015, Web Developer Intern, Neighbor System Co.,Ltd
 
 ---
 
 ### Projects
 
 * [Dicdol (Dictionary of Idol)](https://github.com/dudmy/Dicdol) @Toy
-* [T.noorim (카페를 누리다)](http://dudmy.net/etc/2015/03/02/graduation-project-intro/) @HSU
+* [T.noorim - 비콘을 이용한 O2O 서비스 앱 & 웹](http://dudmy.net/etc/2015/03/02/graduation-project-intro/) @HSU
 * [편의점에 특화된 유통기한 공동관리 앱](https://github.com/dudmy/Softcone) : Android, Parse, ZXing
 * [간단한 소통을 위한 공과대학 게시판](https://youtu.be/I7RpdKLdPY0) : Bootstrap, Apache Tomcat
 * [다자간 채팅 프로그램](https://youtu.be/lLacgR4pNm0) : TCP/IP, Windows Socket
