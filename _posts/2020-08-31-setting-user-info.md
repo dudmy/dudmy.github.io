@@ -26,7 +26,7 @@ $ git config user.email yujin@example.com
 $ git config user.name
 > yujin
 
-$ git config user.name
+$ git config user.email
 > yujin@example.com
 ```
 
