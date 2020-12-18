@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Duplicate class found in modules"
-categories: git
+categories: android
 comments: true
 ---
 
